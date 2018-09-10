@@ -2,13 +2,13 @@
 <import src="../src/wetoast.wxml"/>
 <view    class='upload'>
   <view class='re-modal'  >
- <modal title="拍摄规则"style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true" >
+ <modal title="拍摄规则"style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true"  class="re-modal-modal">
 <view>
-<image class="rechare-image" src="../image/pszy.jpg" mode='widthFix'></image>
+<image class="rechare-image" src="../image/pszy.png" mode='widthFix'></image>
 </view>
 <!-- 需要换行的话直接添加view标签 -->
-<view>展示个性</view>
-<view>请根据图片指示进行拍照</view>
+<view  class='re-modal-text1'>请依次拍摄四个角度照片</view>
+<view class='re-modal-text2'>点击"确认生成"</view>
 </modal>
 </view>
     <camera style="display:{{displaybbb}}" class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>

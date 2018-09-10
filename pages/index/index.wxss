@@ -57,7 +57,7 @@ view , scroll-view{
   flex-direction:column;
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  background: red;
+  background: rgb(190, 26, 26);
 }
 .ym2-bjq{
     width: 100%;

@@ -51,14 +51,20 @@ display: none;
 display: block;
 }
 .btn1{
-  width: 350px;
+  /* position: fixed; */
+    /* display:flex; */
+  /* flex-direction:column; */
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+  width: 110px;
   height: 90px;
-  /* border-radius: 50%; */
   position: absolute;
-  /* bottom: 1170rpx; */
-  left: -0%;
-  top: 73%;
 
+  /* border-radius: 50%; */
+  /* position: absolute; */
+  /* bottom: 1170rpx; */
+  left: 35%;
+  top: 77%;
 
 
 }

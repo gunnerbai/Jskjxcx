@@ -5,7 +5,7 @@
   <image class='img3'  src='{{image3}}' catchtap='btn3'></image>
   <image class='img4'  src='{{image4}}' catchtap='btn4'></image>
    <image class='imageccbutton1'  src='../image/qrsc.png' catchtap='imageccbutton1'></image>
-  <image class='imageccbutton2'  src='../image/qbcp.png' catchtap='imageccbutton2'></image>
+  <!-- <image class='imageccbutton2'  src='../image/qbcp.png' catchtap='imageccbutton2'></image> -->
   <view class='imageccbutton'>
   <text class='imagecc-button-btn'>单击图片可对该照片进行单张重拍</text>
   </view>

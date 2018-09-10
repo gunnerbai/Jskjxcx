@@ -1,14 +1,14 @@
 
 {
   "pages": [
+    "pages/main/imagecc/iamgecc",
+    "pages/main/recharge/text",
     "pages/logs/logs",
     "pages/index/index",
     "pages/main/introduce/introduce",
-    "pages/main/recharge/text",
     "pages/main/videoshow/videoshow",
-    "pages/main/imagecc/iamgecc",
-    "pages/main/simple/text",
     "pages/main/imagecc2/iamgecc",
+    "pages/main/simple/text",
     "pages/main/mine/text",
     "pages/main/advanced/text"
   ],
@@ -16,7 +16,7 @@
   
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#444444",
-    "navigationBarTitleText": "AI美妆",
+    "navigationBarTitleText": "AI魔镜",
     "navigationBarTextStyle": "#ffffff"
   }
   

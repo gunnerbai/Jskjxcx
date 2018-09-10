@@ -92,32 +92,23 @@ Page({
 
   SXX:function(){
     var that = this;
-    wx.reLaunch({
-
-      url: '../simple/text?data1=' + that.data.data1 
-      
-      
-      })
+    wx.navigateTo({
+      url: '../simple/text?data1=' + that.data.data1,
+    })
 
   },
   BXX1: function () {
     var that = this;
-    wx.reLaunch({
-
-      url: '../simple/text?data1=' + that.data.data2
-
-
+    wx.navigateTo({
+      url: '../simple/text?data1=' + that.data.data2,
     })
 
   },
   BXX2: function () {
     var that = this;
-    wx.reLaunch({
-
-      url: '../simple/text?data1=' + that.data.data3
-
-
+    wx.navigateTo({
+      url: '../simple/text?data1=' + that.data.data3,
     })
-
+ 
   },
 })

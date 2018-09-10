@@ -1,19 +1,18 @@
 
 {
   "pages": [
-    "pages/main/imagecc/iamgecc",
-    "pages/main/recharge/text",
     "pages/logs/logs",
     "pages/index/index",
     "pages/main/introduce/introduce",
     "pages/main/videoshow/videoshow",
-    "pages/main/imagecc2/iamgecc",
     "pages/main/simple/text",
+    "pages/main/recharge/text",
+    "pages/main/imagecc/iamgecc",
+    "pages/main/imagecc2/iamgecc",
     "pages/main/mine/text",
     "pages/main/advanced/text"
   ],
   "window": {
-  
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#444444",
     "navigationBarTitleText": "AI魔镜",

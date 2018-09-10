@@ -221,6 +221,7 @@ Page({
         wx.reLaunch({
           url: '../videoshow/videoshow?data1=' + JSON.parse(res.data).result[0].brief + '&data2=' + JSON.parse(res.data).result[1].brief + '&data3=' + JSON.parse(res.data).result[2].brief + '&dadabf1=' + dadabf1 + '&dadabf2=' + dadabf2 +'&dadabf3='+dadabf3,
         })
+        
         wx.hideLoading();
       },
 

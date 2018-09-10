@@ -71,5 +71,21 @@ Page({
      
     })
 
+  },
+  simplebtnback:function(){
+
+    wx.reLaunch({
+      url: '/pages/index/index',
+      })
+  }
+  ,
+  simplebtnmore: function () {
+
+   wx.showToast({
+     title: '敬请期待后续内容...',
+     icon:'none'
+   })
+
+
   }
 })

@@ -1,0 +1,119 @@
+/* pages/main/imagecc/iamgecc.wxss */
+image{
+padding: 0;
+margin: 0;
+
+}
+
+.iamgecc-view{
+   position: fixed;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+  /* background: red; */
+
+}
+
+
+.img1{
+position:absolute;
+left:3%;
+top: 2%;
+float: left;
+background: gainsboro;
+width: 45%;
+/* margin: 1px; */
+height: 35%;
+
+}
+.img2{
+position:absolute;
+right:3%;
+top: 2%;
+float: left;
+background: gainsboro;
+width: 45%;
+height: 35%;
+
+  
+}
+.img3{
+
+/* background: green; */
+position:absolute;
+left:3%;
+top: 39%;
+float: left;
+background: gainsboro;
+width: 45%;
+height: 35%;
+  
+}
+.img4{
+/* background: green; */
+position:absolute;
+right:3%;
+top: 39%;
+float: left;
+background: gainsboro;
+width: 45%;
+height: 35%;
+
+  
+}
+.imageccbutton1{
+width: 130px;
+height: 50px;
+position: absolute;
+top: 80%;
+left: 10%;
+
+
+}
+.imageccbutton2{
+
+width: 130px;
+height: 50px;
+position: absolute;
+top: 80%;
+right: 10%;
+
+}
+.imageccbutton{
+  width:350px;
+  height: 50px;
+  /* line-height: 30px; */
+  
+  /* color: white; */
+  /* font-size: 15px; */
+  /* margin: 0 auto; */
+/* background: green; */
+border-radius: 20px;
+position:absolute;
+/* right:3%; */
+bottom: -3%;
+/* float: left; */
+background: red;
+text-align: center;
+/* width: 45%; */
+/* height: 35%; */
+
+}
+.imagecc-button-btn{
+  width: auto;
+  line-height: 15px;
+  font-size: 15px; 
+  margin: 0 auto;
+  /* align-items: center center; */
+color: white;
+ /* border: 2rpx black solid; */
+  /* width: 400rpx;
+  height: 200rpx; */
+  
+  /* line-height: 200rpx; */
+
+
+}

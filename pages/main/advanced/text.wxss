@@ -1,0 +1,44 @@
+/* pages/main/advanced/text.wxss */
+.camera{
+  height: 100%;
+  width: 100%;
+
+
+}
+.verifycode-cover{
+height: 100%
+
+
+
+}
+.upload{
+ height: 1070rpx;
+  width: 100%;
+
+}
+.bright789_view_hide{
+
+    display: none;
+
+}
+
+.bright789_view_show{
+
+    display: block;
+
+}
+.bright789-text{
+
+  font-size: 40rpx;
+
+  line-height: 40px;
+
+  color: #ff0000;
+
+}
+.hide{
+display: none;
+}
+.show{
+display: block;
+}

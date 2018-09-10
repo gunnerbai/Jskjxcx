@@ -1,0 +1,56 @@
+<!-- pages/main/mine/text.wxml
+<video  hidden="{{showView}}"  class="bright789_view_hide{{showView?'bright789_view_show':''}}" src='{{videurl}}'>
+
+    <cover-view  class='video-text'>{{nihao}}</cover-view>
+
+
+
+
+
+</video>
+
+<button catchtap='minebutton' >点击获取美妆秘密</button>  -->
+<view class="fenxiang-box">
+    <image bindtap="show" src="../image/tp1.jpg" class="fenxiang-btn"></image>
+  </view>
+//弹出层内容，其中的“我知道”中绑定让弹出层消失的函数：bindtap="hide"
+<view class="modal-box" hidden="{{flag}}" bindtap="hide">
+      <view class="modal-content">
+        <swiper indicator-dots="true" autoplay="{{false}}"autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+           <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+              <swiper-item>
+                 <image src="{{item}}"/>
+              </swiper-item>
+           </block>
+        </swiper>
+      </view>
+      <view>
+       <button class="knowBtn" bindtap="hide">我知道了</button>
+      </view>
+ </view>
+
+     <!-- <bindtap="onChangeShowState">{{showView?'隐藏':'显示'}}</button> -->
+<!-- <view display:none class="one {{showView?'show':'hide'}}" >
+     <image src='../../img/faceback.png'></image>
+     
+<button class='show-button' bindtap='showButton'>go</button>
+</view>
+<view  hidden="{{showView}}" >
+    <image src='../../img/timg.jpg'></image>
+</view> -->
+
+
+
+
+<!-- 
+<live-player  class='video-id' src='{{videurl}}' mode="RTC" autoplay bindstatechange="statechange" binderror="error" style="width: 300px; height: 225px;" /> -->
+
+  <!-- <view class="bright789_view_hide{{showView?'bright789_view_show':''}}"  >
+     nihao
+
+  </view>
+<button catchtap='minebutton' >点击获取美妆秘密</button> -->
+<!-- <button type="default" size="default"> size属性为default </button> -->
+
+
+

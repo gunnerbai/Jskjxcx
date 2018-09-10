@@ -1,0 +1,19 @@
+<view class="page">
+      <video  class='simple-video'  src='{{videurl}}'></video>
+      <view class='simple-center'>
+      <text class='simple-text1'>职场女性新魅力    大咖PONY精致韩妆教程 编织职场女人奇妙幻想</text>
+
+      <text class='simple-text2'>PONY/韩妆/职场/潮流/正装</text>
+       <text class='simple-text3'>苏好大好说的哈沙按时打算大所大</text>
+        <text class='simple-text4'>打开了手机打开链接卡时间段来看氨基酸的快乐家属楼点击垃圾袋垃圾收到了卡就瘦了加了手机 按时间段里氨基酸的快乐就奥斯卡来得及卡时间段里氨基酸的快乐家属楼点击阿里卡时间段里打开手机看了大家来到较大数量单价拉卡时间段垃圾速度卡拉胶圣诞快乐家属楼点击逻辑</text>
+         <text class='simple-text5'>打开了手机打开链接卡时间段来看氨基酸的快乐家属楼点击垃圾袋垃圾收到了卡就瘦了加了手机 按时间段里氨基酸的快乐就奥斯卡来得及卡时间段里氨基酸的快乐家属楼点击阿里卡时间段里打开手机看了大家来到较大数量单价拉卡时间段垃圾速度卡拉胶圣诞快乐家属楼点击逻辑</text>
+    <image   class='simple-img'></image>
+
+      <button class='simple-btn-more'>查看更多PONY的视频</button>
+      <button class='simple-btn-back'>返回首页</button>
+
+
+      <view  class='Dline'></view>
+    </view>
+
+</view>

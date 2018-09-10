@@ -1,0 +1,10 @@
+<import src="../main/src/wetoast.wxml"/>
+<view class='page'>
+  <image class='ym2-bjq' src='../img/bjq.png'></image>
+  <image class='ym2-xj' src='../img/xj.png'></image>
+      <view class='ym2-view' catchtap='ym2view'>
+        <image class='ym2-btn' src='../img/bt1.png'></image>
+        <!-- <text class='ym2-text'>开始AI拍照识别</text> -->
+      </view>
+</view>
+<template is="wetoast" data="{{...__wetoast__}}"/>

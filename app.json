@@ -1,0 +1,29 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/recharge/text",
+    "pages/logs/logs",
+    "pages/main/introduce/introduce",
+    "pages/main/videoshow/videoshow",
+    "pages/main/imagecc/iamgecc",
+    "pages/main/simple/text",
+    "pages/main/imagecc2/iamgecc",
+    "pages/main/mine/text",
+    "pages/main/advanced/text"
+  ],
+  "window": {
+  
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#444444",
+    "navigationBarTitleText": "AI美妆",
+    "navigationBarTextStyle": "#ffffff"
+  }
+  
+}
+
+
+
+
+
+

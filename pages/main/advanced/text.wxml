@@ -1,0 +1,23 @@
+<!--pages/main/advanced/text.wxml-->
+<view   class='upload'>
+    <camera class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
+    <cover-image  class='verifycode-cover' src='../back1111.png' ></cover-image>
+    <cover-view  class='cover-view'>
+    
+     <cover-view  class='set-wrap' >
+         <cover-view class='num1'>{{nuller}}</cover-view>
+         <cover-view class='num2'>2</cover-view>
+         <cover-view class='num3'>3</cover-view>
+     
+     </cover-view>
+    
+      <cover-view class='main_tips'>眨眼睛</cover-view>
+      <cover-view class='sub_tips'>倒计时10秒</cover-view>
+    </cover-view>
+    
+    
+    
+    </camera>
+
+
+</view>

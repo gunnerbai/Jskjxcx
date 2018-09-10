@@ -1,0 +1,51 @@
+<!--pages/main/introduce/introduce.wxml-->
+<!-- <text>pages/main/introduce/introduce.wxml</text> -->
+<view class='page'>
+
+      <view class='xfy'>
+          <image  class='XFYImage' src="../image/back01.jpg"></image>
+          <text class='XFYText'>小肥圆</text>
+
+        
+      </view  >
+      <view class='zw1'>
+      <text class='XFYZW'>NIHAO SAD ASD ASD ASD ASD ASD AS 实打实大所大所大所大所大所多阿萨德阿萨德阿萨德阿萨德按时打算</text>
+      
+      </view>
+      
+      <view class='xfy'>
+          <image  class='XFYImage' src="../image/back02.jpg"></image>
+          <text class='XFYText'>小山眉</text>
+
+        
+      </view  >
+      <view class='zw1'>
+      <text class='XFYZW'>NIHAO SAD ASD ASD ASD ASD ASD AS 实打实大所大所大所大所大所多阿萨德阿萨德阿萨德阿萨德按时打算</text>
+      
+      </view>
+      
+      <view class='xfy'>
+          <image  class='XFYImage' src="../image/back03.jpg"></image>
+          <text class='XFYText'>大杏仁</text>
+
+        
+      </view  >
+      <view class='zw1'>
+      <text class='XFYZW'>NIHAO SAD ASD ASD ASD ASD ASD AS 实打实大所大所大所大所大所多阿萨德阿萨德阿萨德阿萨德按时打算</text>
+      
+      </view>
+      
+      <view class='xfy'>
+          <image  class='XFYImage' src="../image/back04.jpg"></image>
+          <text class='XFYText'>朝天鼻</text>
+
+        
+      </view  >
+      <view class='zw1'>
+      <text class='XFYZW'>NIHAO SAD ASD ASD ASD ASD ASD AS 实打实大所大所大所大所大所多阿萨德阿萨德阿萨德阿萨德按时打算</text>     
+      </view>
+      <button class='Btn'>一键获得专属妆容</button>x`
+</view>
+
+
+

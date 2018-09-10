@@ -1,0 +1,73 @@
+/* pages/main/simple/text.wxss */
+.page{
+  width: 100%;
+
+
+}
+.simple-video{
+  width: 100%;
+  height: 200px;
+
+
+}
+.simple-center{
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+.simple-text2 ,.simple-text3, .simple-text4,.simple-text5{
+    font-size: 12px;
+     display: inline-block;
+     line-height: 30px;
+
+}
+.simple-text1{
+  display: inline-block;
+  font-size: 18px;
+}
+.simple-text2{
+  margin-top: 10px;
+  /* display: inline-block; */
+  background: red;
+  color: white;
+  font-size: 16px;
+}
+.simple-text3{
+  margin: 20px auto;
+
+
+}
+
+/* http://gunnerbai.mynatapp.cc/XCXWebPro/ */
+.simple-img{
+  width: 100%;
+  height: 200px;
+
+  background: url('http://gunnerbai.mynatapp.cc/XCXWebPro/bjht.png');
+    background-repeat:no-repeat;
+   background-size:100% 100%;
+   -moz-background-size:100% 100%;
+   margin: 40px auto;
+
+}
+.simple-btn-more{
+border-radius: 20px;
+
+
+
+}
+.simple-btn-back{
+
+border-radius: 20px;
+}
+.Dline{
+  margin: 30px auto;
+    width: 100%;
+    height: 1px;
+    background: rgb(221, 215, 215);
+
+
+
+}

@@ -1,10 +1,10 @@
 
 {
   "pages": [
-    "pages/index/index",
-    "pages/main/recharge/text",
     "pages/logs/logs",
+    "pages/index/index",
     "pages/main/introduce/introduce",
+    "pages/main/recharge/text",
     "pages/main/videoshow/videoshow",
     "pages/main/imagecc/iamgecc",
     "pages/main/simple/text",

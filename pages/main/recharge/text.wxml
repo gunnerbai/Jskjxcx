@@ -2,7 +2,7 @@
 <import src="../src/wetoast.wxml"/>
 <view    class='upload'>
   <view class='re-modal'  >
- <modal title="拍摄规则"style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true"  class="re-modal-modal">
+ <modal style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true"  class="re-modal-modal">
 <view>
 <image class="rechare-image" src="../image/pszy.png" mode='widthFix'></image>
 </view>
@@ -26,5 +26,6 @@
     </camera>
     <!-- wetoast -->
 </view>
+    <!-- <image class='btn1' catchtap='buton1' src="../image/nihao.gif"></image> -->
 <template is="wetoast" data="{{...__wetoast__}}"/>
 

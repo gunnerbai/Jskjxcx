@@ -1,0 +1,65 @@
+/* pages/app/mine/music/music.wxss */
+.page{
+  background: #eeeeee;
+
+}
+.table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #b1acac;
+}
+.table-view1{
+width: 45%;
+float: left;
+margin-top: 20rpx;
+margin-bottom: 20rpx;
+margin-left: 20rpx;
+border-radius: 20px;
+/* border: 2px solid rgb(189, 185, 185); */
+ background: white;
+}
+.table-view2{
+width: 45%;
+float: right;
+margin-right: 20rpx;
+margin-top: 20rpx;
+margin-bottom: 20rpx;
+border-radius: 20px;
+ background: white;
+}
+
+.table-view1-image ,.table-view2-image{
+  display: inline-block;
+  width: 95%;
+  height: 300rpx;
+
+
+
+
+}
+
+.table-view1-text ,.table-view2-text{
+    display: -webkit-box;
+    font-size:28rpx;
+    color:#7c7979;
+    line-height: 40rpx;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+
+}
+
+.table-view1-view,.table-view2-view{
+
+    width: 80%;
+    height: auto;
+    font-size: 28rpx;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px auto;
+    text-align: center;
+
+}

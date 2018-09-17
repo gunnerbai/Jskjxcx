@@ -2,21 +2,62 @@
 {
   "pages": [
     "pages/logs/logs",
+    "pages/dkx/dkx",
+    "pages/dkxx/dkxx",
     "pages/index/index",
-    "pages/main/introduce/introduce",
-    "pages/main/videoshow/videoshow",
-    "pages/main/simple/text",
+    "pages/listview/listview",
+    "pages/datashow/datashow",
+    "pages/item/item",
     "pages/main/recharge/text",
+    "pages/main/simple/text",
+    "pages/main/videoshow/videoshow",
+    "pages/main/introduce/introduce",
     "pages/main/imagecc/iamgecc",
     "pages/main/imagecc2/iamgecc",
     "pages/main/mine/text",
     "pages/main/advanced/text"
   ],
+  "subpackages":[
+    {
+      "root":"packageShop",
+      "pages":[
+        "pages/index/index"
+      ]
+    }
+  ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#444444",
+    "navigationBarBackgroundColor": "#b81c25",
     "navigationBarTitleText": "AI魔镜",
     "navigationBarTextStyle": "#ffffff"
+  }
+  ,
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    
+    "list": [
+  
+      {
+        "pagePath": "pages/index/index",
+          "iconPath": "pages/img/p.png",
+          "selectedIconPath": "pages/img/p.png",
+           
+          "color": "#000000",
+        "text": "个人秀"
+      },
+        {
+          "pagePath": "pages/dkx/dkx",
+          "iconPath": "pages/img/f.png",
+          "selectedIconPath": "pages/img/f.png",
+          "color": "#000000",
+          "text": "美妆秀"
+        }
+      
+     
+    ]
   }
   
 }

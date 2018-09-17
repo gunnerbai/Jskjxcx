@@ -10,7 +10,7 @@
     <image   class='simple-img'></image>
 
       <button class='simple-btn-more'  catchtap='simplebtnmore'>查看更多PONY的视频</button>
-      <button class='simple-btn-back'  catchtap='simplebtnback'>返回首页</button>
+      <button class='simple-btn-back'  catchtap='simplebtnback'>去商城购买</button>
 
 
       <view  class='Dline'></view>

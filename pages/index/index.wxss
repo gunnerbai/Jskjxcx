@@ -57,7 +57,7 @@ view , scroll-view{
   flex-direction:column;
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  background: rgb(190, 26, 26);
+  /* background: rgb(190, 26, 26); */
 }
 .ym2-bjq{
     width: 100%;
@@ -68,14 +68,14 @@ view , scroll-view{
     left: 7%;
     top: 10%; 
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 .ym2-btn{
-    height: 70px;
-    width: 210px;
+    height: 90px;
+    width: 280px;
     margin: 0 auto;
     position:absolute;
-    left: 20%;
+    left: 12%;
     top: 60%; 
 }
 .ym2-text{

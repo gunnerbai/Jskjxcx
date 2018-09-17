@@ -1,0 +1,83 @@
+<!--pages/dkxx/dkxx.wxml-->
+
+
+<view   class='page'>
+<!-- 头部 -->
+    <view  class='title'>
+        <image class='title-image' src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk0.png'  ></image>
+        <text  class='title-text1'>PONY</text>
+        <text  class='title-text2'>韩国顶级彩妆化妆师，是多个韩国顶级艺人御用化妆师，优秀的化妆技巧以及独特的妆容风格使她收获全球各地无数粉丝，PONY多次与各大彩妆品牌推出合作系列以及拥有自己的同名彩妆品牌。</text>
+    
+    </view>
+
+  <view class='item'>
+          <view class='item-beijing'></view>
+          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk1.jpg' ></image>
+          <view  class='item-view'>
+            <view>
+            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            </view>
+            <view>
+             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+            </view>
+         </view>
+         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+        </view>
+  <view class='item'>
+          <view class='item-beijing'></view>
+          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk2.jpg' ></image>
+          <view  class='item-view'>
+            <view>
+            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            </view>
+            <view>
+             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+            </view>
+         </view>
+         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+        </view>
+          <view class='item'>
+          <view class='item-beijing'></view>
+          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk3.jpg' ></image>
+          <view  class='item-view'>
+            <view>
+            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            </view>
+            <view>
+             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+            </view>
+         </view>
+         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+        </view>
+          <view class='item'>
+          <view class='item-beijing'></view>
+          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk4.jpg' ></image>
+          <view  class='item-view'>
+            <view>
+            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            </view>
+            <view>
+             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+            </view>
+         </view>
+         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+        </view>
+
+ 
+          <view class='item'>
+          <view class='item-beijing'></view>
+          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk5.jpg' ></image>
+          <view  class='item-view'>
+            <view>
+            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            </view>
+            <view>
+             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+            </view>
+         </view>
+         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+        </view>
+
+
+      <image  class='cxgx' src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/cxgx.png'></image>
+</view>

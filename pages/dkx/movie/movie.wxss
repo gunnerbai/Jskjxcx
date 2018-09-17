@@ -1,0 +1,35 @@
+/* pages/listview/listview.wxss */
+.pages{
+
+
+  
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+ 
+}
+
+.button1{
+  border-radius: 20px;
+    float: left;
+    width: 80%;
+    height: 400rpx;
+    margin: 10px;
+/* text-align: center; */
+
+}
+.button1-image{
+
+      width: 80%;
+      height: 250rpx;
+
+
+
+}
+.button1-text{
+    float: left;
+
+
+}

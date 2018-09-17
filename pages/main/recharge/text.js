@@ -141,9 +141,12 @@ Page({
     //   // imgMode: 'scaleToFill'
     // })
     // var that = this;
-
+    wx.showLoading({
+      title: '正在保存请稍后',
+    })
     that.ctx.takePhoto({
       quality: 'low',
+    
       success: (res) => {
         // console.log(res.tempImagePath);
         imagepath.push(res.tempImagePath);
@@ -154,11 +157,13 @@ Page({
           imagepath
        
         })
-        console.log(imagepath)
+        
+        console.log("拍照的image"+imagepath)
         // wx.switchTab({
         //   url: '../mine/text',
 
         // }
+    
         wx.saveImageToPhotosAlbum({
           filePath: res.tempImagePath,
           success: function (res) {
@@ -171,13 +176,13 @@ Page({
             // })
           },
           fail: function (res) {
-            console.log(res)
+            console.log("照片存储报错"+res)
             console.log('fail')
           }
         })      
       }
     })
-    if (count < 2) {
+    if (count < 3) {
       // console.log(count);
       // console.log(images[count]);
 
@@ -189,38 +194,24 @@ Page({
       })
       // console.log(src)
       count++;
-     
-    } else if (count ==2){
-
-      that.setData({
-        // src: res.tempImagePath
-        src111: images[count],
-      // displaybbb:"none"
-      })
-      console.log("进入count==2")
-      count++;
-      // that.wetoast.toast({
-      //   // title: 'WeToast'
-      //   img: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ymsm.png',
-      //   imgClassName: 'my_wetoast_img',
-      //   imgMode: 'scaleToFill',
-      //   success:function(){
-      //     that.setData({
-      //       // src: res.tempImagePath
-      //       // src111: images[count],
-      //       displaybbb: "block"
-      //     })
-      //   }
-      // })
-   
-      console.log("度过了");
-
+      wx.hideLoading();
     }else {
       count=0;
-      wx.reLaunch({
-        url: '../imagecc/iamgecc'
-      
+      wx.showLoading({
+        title: '跳转中....请稍后',
       })
+
+      setTimeout(function () {
+        //要延时执行的代码
+        wx.hideLoading();
+        wx.reLaunch({
+          url: '../imagecc/iamgecc'
+
+        })
+      }, 3000) //延迟时间 这里是1秒
+
+
+    
    
       // console.log(imagepath)
 

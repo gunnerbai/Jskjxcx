@@ -25,6 +25,7 @@
 }
 .simple-text1{
   display: inline-block;
+  font-weight: bold;
   font-size: 18px;
 }
 .simple-text2{
@@ -54,7 +55,7 @@
 }
 .simple-btn-more{
 border-radius: 20px;
-
+  margin-bottom: 15rpx;
 
 
 }
@@ -78,3 +79,12 @@ border-radius: 20px;
 
 
  }
+.item-gz{
+  width: 80rpx;
+  height: 75rpx;
+  float: right;
+  margin-right: 0rpx;
+  /* margin-top: 0rpx; */
+  margin-top: 15rpx;
+  /* border: 1px solid black; */
+}

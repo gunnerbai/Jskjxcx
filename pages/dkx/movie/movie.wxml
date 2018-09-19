@@ -12,5 +12,5 @@
       <image  class='button1-image' bindtap='imagebutton6' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m6.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton7' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m7.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton8' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m8.jpg'></image>
-
+      
 </view>

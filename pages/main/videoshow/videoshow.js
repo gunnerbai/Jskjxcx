@@ -111,4 +111,12 @@ Page({
     })
  
   },
+  simplebtnback:function(){
+
+    wx.navigateTo({
+      url: '/pages/logs/logs'
+    })
+
+
+  }
 })

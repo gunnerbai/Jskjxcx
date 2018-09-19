@@ -4,13 +4,17 @@
       <text class='simple-text1'>职场女性新魅力    大咖PONY精致韩妆教程 编织职场女人奇妙幻想</text>
 
       <text class='simple-text2'>PONY/韩妆/职场/潮流/正装</text>
-       <!-- <text class='simple-text3'>苏好大好说的哈沙按时打算大所大</text> -->
+        <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
+        <image class="item-gz " src="{{isClick?'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png':'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png'}}" bindtap="haveSave"></image>
+   <!-- <text class="saveText">{{isClick?'已收藏':'收藏'}}</text> -->
+
+             <!-- <text class='simple-text3'>苏好大好说的哈沙按时打算大所大</text> -->
         <text class='simple-text4'>谈起PONY，最出名的还是她在对各种仿妆的超神表现，相比其它大咖化妆师，pony似乎对仿妆有着极度的热爱与追求，拥有超高的化妆频率，从一个默默无闻的小化妆师，到红彻全球的仿妆大师，PONY演绎的，是女人72变的真正精髓。 </text>
          <text class='simple-text5'>这一期PONY带来的是职业妆之中最难掌控的烈焰红唇，在别人眼中烈焰红唇只适合夜店艳遇，但在PONY手下，却演变出了诱惑而不色情，性感而显高冷的感觉！让这期高冷性感职业妆带你知会什么叫女人气场，什么叫艳压群芳！  </text>
     <image   class='simple-img'></image>
 
       <button class='simple-btn-more'  catchtap='simplebtnmore'>查看更多PONY的视频</button>
-      <button class='simple-btn-back'  catchtap='simplebtnback'>去商城购买</button>
+      <button class='simple-btn-back'  catchtap='simplebtnback'>返回首页</button>
 
 
       <view  class='Dline'></view>

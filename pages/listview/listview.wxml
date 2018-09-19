@@ -1,16 +1,20 @@
 <!--pages/listview/listview.wxml-->
 <view  class='pages'>
+      <!-- 日式元气妆 -->        
+ <!-- <image class='item-gz' id='0'  wx:if="{{collection}}" src="http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png"  bindtap="toCollect"></image>
+<image class='item-gz' id='1' wx:else src="http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png" bindtap="toCollect"></image> -->
 
+<image class="save " src="{{isClick?'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png':'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'}}" bindtap="haveSave"></image>
+   <text class="saveText">{{isClick?'已收藏':'收藏'}}</text>
 
-      <!-- 日式元气妆 -->
-      
-      <image  class='button1-image' bindtap='imagebutton1' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m1.jpg'></image>
+      <!-- <image  class='button1-image' bindtap='imagebutton1' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m1.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton2' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m2.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton3' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m3.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton4' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m4.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton5' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m5.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton6' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m6.jpg'></image>
       <image  class='button1-image' bindtap='imagebutton7' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m7.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton8' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m8.jpg'></image>
+      <image  class='button1-image' bindtap='imagebutton8' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m8.jpg'></image> -->
 
 </view>
+

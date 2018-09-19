@@ -21,7 +21,7 @@
              <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
         </view>
   <view class='item'>
           <view class='item-beijing'></view>
@@ -34,7 +34,7 @@
              <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
         </view>
           <view class='item'>
           <view class='item-beijing'></view>
@@ -47,7 +47,7 @@
              <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
         </view>
           <view class='item'>
           <view class='item-beijing'></view>
@@ -60,7 +60,7 @@
              <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
         </view>
 
  
@@ -75,7 +75,7 @@
              <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
         </view>
 
 

@@ -52,7 +52,7 @@
         <text class='BXtext24'>查看详情</text>
         </view>
       </view>
-
+       <button class='simple-btn-back'  bindtap='simplebtnback'>返回主页面</button>
 
 
 </view>

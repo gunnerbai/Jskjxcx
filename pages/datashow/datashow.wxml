@@ -22,7 +22,8 @@
              <text class='item-text2'>{{item.wb}}</text>
             </view>
          </view>
-         <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image>
+      
+
         </view>
       </navigator>
     </block>

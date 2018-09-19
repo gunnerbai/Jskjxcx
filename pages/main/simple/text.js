@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    job: [],
+    jobList: [],
+    id: '',
+    isClick: false,
+    jobStorage: [],
+    jobId: ''
+
   },
 
   /**
@@ -74,9 +81,13 @@ Page({
   },
   simplebtnback:function(){
 
+    // wx.reLaunch({
+    //   url: '/packageShop/pages/index/index',
+    //   })
+
     wx.reLaunch({
-      url: '/packageShop/pages/index/index',
-      })
+      url: '/pages/index/index',
+    })
   }
   ,
   simplebtnmore: function () {
@@ -85,6 +96,45 @@ Page({
      title: '敬请期待后续内容...',
      icon:'none'
    })
+
+
+  },
+  haveSave(e) {
+    if (!this.data.isClick == true) {
+      let jobData = this.data.jobStorage;
+      jobData.push({
+        jobid: jobData.length,
+        id: this.data.job.id
+      })
+      wx.setStorageSync('jobData', jobData);//设置缓存
+      wx.showToast({
+        title: '已收藏',
+      });
+    } else {
+      wx.showToast({
+        title: '已取消收藏',
+      });
+    }
+    this.setData({
+      isClick: !this.data.isClick
+    })
+  }
+
+  ,
+
+  itemgz: function () {
+
+    var that = this;
+    that.setData({
+
+      imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'
+    
+
+    })
+    wx.showToast({
+      title: '已收藏',
+      icon:'success'
+    })
 
 
   }

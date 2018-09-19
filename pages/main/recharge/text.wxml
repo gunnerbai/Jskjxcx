@@ -23,6 +23,9 @@
       <cover-view class='sub_tips'>倒计时10秒</cover-view>
     </cover-view>
      <cover-image class='btn1' catchtap='buton1' src="../image/psan.png">拍照</cover-image>
+      <cover-view  class='button-text-view'>
+     <cover-view  class='button-text'>请将正脸按照图形方向进行拍摄</cover-view>
+     </cover-view>
     </camera>
     <!-- wetoast -->
 </view>

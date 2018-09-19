@@ -10,15 +10,21 @@ Page({
     type: '', // 数据类型
     loading: true, // 显示等待框
     data1:'',
-    imagesrc:'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png'
+    imagesrc:'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    job: [],
+    jobList: [],
+    id: '',
+    isClick: false,
+    jobStorage: [],
+    jobId: ''
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) { // options 为 board页传来的参数
-    const _this = this;
-
+    var _this = this;
     this.setData({
       data1:options.data1
 
@@ -59,9 +65,32 @@ Page({
         
         }
       })
+  },
+  haveSave(e) {
+    if (!this.data.isClick == true) {
+      let jobData = this.data.jobStorage;
+      jobData.push({
+        jobid: jobData.length,
+        id: this.data.job.id
+      })
+      wx.setStorageSync('jobData', jobData);//设置缓存
+      wx.showToast({
+        title: '已收藏',
+      });
+    } else {
+      wx.showToast({
+        title: '已取消收藏',
+      });
+    }
+    this.setData({
+      isClick: !this.data.isClick
+    })
   }
+
   ,
   itemgz:function(){
+
+
 
       var that = this;
       that.setData({
@@ -73,5 +102,6 @@ Page({
 
 
 
-  }
+  },
+  
 })

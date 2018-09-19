@@ -55,7 +55,7 @@ display: block;
   /* flex-direction:column; */
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  width: 110px;
+  width: 100px;
   height: 90px;
   position: absolute;
 
@@ -116,5 +116,27 @@ modal view{
 
   font-size: 20px;
   font-weight: 900;
+}
+.button-text-view{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+  z-index: 9999;
+  color: #757474;
+ display:flex;
+  flex-direction:column;
+  font-size: 33rpx;
+
+}
+.button-text{
+ 
+  width: auto;
+  height: auto;
+  margin-bottom: 45rpx;
+
+
 }
 

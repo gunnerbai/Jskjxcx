@@ -1,15 +1,18 @@
 
 {
   "pages": [
+    "pages/listview/listview",
+    "pages/dkx/dkx",
+    "pages/wdsc/wdsc",
+    "pages/dkxx/dkxx",
+    "pages/wdgz/wdgz",
+    "pages/yhj/yhj",
     "pages/logs/logs",
     "pages/datashow/datashow",
     "pages/main/simple/text",
     "pages/index/index",
-    "pages/listview/listview",
     "pages/main/recharge/text",
     "pages/main/videoshow/videoshow",
-    "pages/dkx/dkx",
-    "pages/dkxx/dkxx",
     "pages/item/item",
     "pages/main/introduce/introduce",
     "pages/main/imagecc/iamgecc",
@@ -37,14 +40,11 @@
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
-    
     "list": [
-  
       {
         "pagePath": "pages/index/index",
           "iconPath": "pages/img/p.png",
           "selectedIconPath": "pages/img/p.png",
-           
           "color": "#000000",
         "text": "个人秀"
       },
@@ -55,8 +55,14 @@
           "color": "#000000",
           "text": "美妆秀"
         }
-      
-     
+        ,
+        {
+          "pagePath": "pages/listview/listview",
+          "iconPath": "pages/img/f.png",
+          "selectedIconPath": "pages/img/f.png",
+          "color": "#000000",
+          "text": "个人中心"
+        }
     ]
   }
   

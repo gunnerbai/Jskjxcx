@@ -14,7 +14,7 @@
 .button1{
   border-radius: 20px;
     float: left;
-    width: 80%;
+    width: 95%;
     height: 400rpx;
     margin: 10px;
 /* text-align: center; */
@@ -22,7 +22,7 @@
 }
 .button1-image{
 
-      width: 80%;
+      width: 95%;
       height: 250rpx;
 
 

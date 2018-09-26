@@ -1,20 +1,78 @@
-<!--pages/listview/listview.wxml-->
 <view  class='pages'>
-      <!-- 日式元气妆 -->        
- <!-- <image class='item-gz' id='0'  wx:if="{{collection}}" src="http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png"  bindtap="toCollect"></image>
-<image class='item-gz' id='1' wx:else src="http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png" bindtap="toCollect"></image> -->
 
-<image class="save " src="{{isClick?'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png':'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'}}" bindtap="haveSave"></image>
-   <text class="saveText">{{isClick?'已收藏':'收藏'}}</text>
+    <view class='title'>
+    <view   class='title-user'>
+      <image  class='tile-userimage'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/grzx/tx.png'   ></image>
+      <view  class='title-username'>银灰色的白</view>
+      </view>
+    </view>
+      <view class='center'>
+        <view class='center-qt'>
+          <view class='center-text1'>
+              <text class='center-zb'>50</text>
+              <text class='center-zw' >账户余额</text>
+          
+          </view>
+           <view class='center-line'> </view>
+            <view class='center-text2'>
+            
+             <text class='center-zb'>50</text>
+              <text class='center-zw' >积分</text>
+            
+             </view>
+             <view class='center-line'> </view>
+            <view class='center-text3'> 
+               <text class='center-zb'>2</text>
+              <text class='center-zw' >优惠券</text>
+            </view>
+            </view>
+       </view>
+        <view  class='item'>
+              <view  class='item1'  catchtap='wdsz'>
+                  <image  class='item1-image' src='../img/scj.png'></image>
+                  <view   class='item1-text'><text>我的收藏</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
 
-      <!-- <image  class='button1-image' bindtap='imagebutton1' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m1.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton2' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m2.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton3' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m3.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton4' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m4.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton5' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m5.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton6' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m6.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton7' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m7.jpg'></image>
-      <image  class='button1-image' bindtap='imagebutton8' src='https://gunnerbai.mynatapp.cc/XCXWebPro/m8.jpg'></image> -->
+        </view>
+            <view  class='item'>
+              
+              <view  class='item1' catchtap='scitemgz'>
+                  <image  class='item1-image' src='../img/gz.png'></image>
+                  <view   class='item1-text'><text>我的关注</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
 
+        </view>
+            <view  class='item'>
+              
+              <view  class='item1'  catchtap='scitemkj'>
+                  <image  class='item1-image' src='../img/sc.png'></image>
+                  <view   class='item1-text'><text>我的卡卷</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
+
+        </view>
+            <view  class='item'>
+              
+              <view  class='item1'>
+                  <image  class='item1-image' src='../img/jl.png'></image>
+                  <view   class='item1-text'><text>观看记录</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
+        </view>
+            <view  class='item'>       
+              <view  class='item1'>
+                  <image  class='item1-image' src='../img/xx.png'></image>
+                  <view   class='item1-text'><text>关于我们</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
+        </view>
+   <view  class='item'>            
+              <view  class='item1'>
+                  <image  class='item1-image' src='../img/phone.png'></image>
+                  <view   class='item1-text'><text>联系我们</text></view>
+                  <image   class='item1-image1'  src='../img/tz.png'></image>
+              </view>
+        </view>
 </view>
-

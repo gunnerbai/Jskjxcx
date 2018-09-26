@@ -1,0 +1,43 @@
+/* pages/yhj/yhj.wxss */
+.pages{
+
+
+ 
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  background: #d8d3d3;
+  padding: 0;
+  margin: 0;
+
+}
+
+.title{
+  width: 100%;
+  height: 230rpx;
+
+
+
+}
+.center{
+    margin-top: 50rpx;
+
+    width: 90%;
+    height: auto;
+
+}
+.title-image{
+  width: 100%;
+  height: 230rpx;
+
+
+}
+.center-image{
+    width: 100%;
+    height: 250rpx;
+    margin: 10rpx auto;
+
+
+}

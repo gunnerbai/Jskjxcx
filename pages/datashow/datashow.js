@@ -35,7 +35,9 @@ Page({
       wx.request({
         url: url,
         data: {
-          showdata:options.data2},
+          showdata:options.data2,
+          cxId:""
+          },
         header: {
           'content-type': 'json' // 默认值
         },

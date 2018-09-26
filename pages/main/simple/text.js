@@ -21,7 +21,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     console.log(options.data1);
-    that.setData({ videurl: "https://gunnerbai.mynatapp.cc/XCXWebPro/" + options.data1 + ".mp4" })
+    that.setData({ videurl: "https://gunnerbai.mynatapp.cc/XCXWebPro/spsc/" + options.data1 + ".mp4" })
   },
 
   /**
@@ -119,23 +119,15 @@ Page({
       isClick: !this.data.isClick
     })
   }
-
   ,
-
   itemgz: function () {
-
     var that = this;
     that.setData({
-
       imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'
-    
-
     })
     wx.showToast({
       title: '已收藏',
       icon:'success'
     })
-
-
   }
 })

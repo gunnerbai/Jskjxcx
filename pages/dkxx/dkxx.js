@@ -5,13 +5,68 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png'
+    imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    dkimage:"",
+    dkname:"",
+    dkjj:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this;
+    console.log(options.data2);
+      
+    that.setData({
+      dkimage: options.data1,
+      dkname: options.data2,
+      dkjj: options.data3
+
+    })
+
+    // 拼接请求url
+    const url = 'https://gunnerbai.mynatapp.cc/XCXWebPro/ShowDataServlet';
+    // 请求数据
+    wx.request({
+      url: url,
+      data: {
+        showdata: options.data2,
+        cxId: "BZMC"
+
+
+      },
+      header: {
+        'content-type': 'json' // 默认值
+      },
+      success: function (res) {
+        console.log(res.data);
+        // var j =JSON.parse(res.data);
+        console.log(res.data.list.length);
+        var j = res.data.list;
+        for (var i = 0; i < res.data.list.length; i++) {
+
+          var a = {};
+
+          j[i]
+
+
+        }
+
+        // 赋值
+        that.setData({
+          title: '美妆信息',
+          list: j,
+          type: 'us_box',
+          loading: false // 关闭等待框
+        })
+
+
+
+      }
+    })
+
+
 
   },
 
@@ -63,17 +118,5 @@ Page({
   onShareAppMessage: function () {
 
   },
-  itemgz: function () {
 
-    var that = this;
-    that.setData({
-
-      imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'
-
-
-    })
-
-
-
-  }
 })

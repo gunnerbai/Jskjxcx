@@ -2,34 +2,140 @@
 .pages{
 
 
-  
+  position: fixed;
   height: 100%;
   width: 100%;
   display:flex;
   flex-direction:column;
-  align-items:center;/*垂直居中*/
+  align-items:center;
+  
+  background: #e2e0e0;
+}
+
+.title{
+  width: 100%;
+  height: 300rpx;
+  background-image: url('http://gunnerbai.mynatapp.cc/XCXWebPro/grzx.png') ;
+   /* background-size:100% 100%; */
+   /* background-size: cover; */
+
+background-repeat:no-repeat;
+ background-size:100% 100%;
+ -moz-background-size:100% 100%;
+  
+}
+.title-user{
+ height: auto;
+ width: 100%;
+ margin-top: 50rpx;
+ display: flex;
+  align-items: center;
+
+
+}
+.tile-userimage{
+    width: 180rpx;
+    height: 180rpx;
+    /* float: left; */
+    margin-left: 80rpx;
  
-}
 
-.button1{
-  border-radius: 20px;
+}
+.title-username{
+
+    width: auto;
+    height: 30rpx;
+    color: white;
+    font-size: 40rpx;
+    margin-left: 30rpx;
+    /* float: left; */
+    /* margin-left: 380rpx; */
+     
+  
+    /* align-items: center; */
+}
+.center{
+  
+    height: 150rpx;
+    width: 100%;
+    background: white;
+    display:flex;
+    flex-direction:column;
+
+    justify-content: center;/*水平居中*/
+
+  /* background: #c0bcbc; */
+}
+.center-qt{
+
+ height: 150rpx;
+    width: 100%;
+
+}
+.center-line{
+  /* margin-top: 5%; */
+  height: 80%;
+  width: 2px;
+  background: #696767;
+  margin: 10px 0;
+ float: left;
+
+}
+.center-text1 ,.center-text2,.center-text3{
     float: left;
-    width: 80%;
-    height: 400rpx;
-    margin: 10px;
-/* text-align: center; */
+    width: 32%; 
+     margin-left: 0%;
+    /* display:flex; */
+    /* flex-direction:column; */
+        display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;/*水平居中*/
+    
+}
+.center-zb{
+  margin-top: 20rpx;
+  color: #c44343;
+}
+.center-zw{
+  font-weight: bold;
+}
+.item{
+  width: 100%;
+  height: auto;
+  margin-top: 50rpx;
+  padding: 0;
+  margin: 0;
+}
+.item1{
+    
+    width: 100%;
+    height: 80rpx;
+     align-items: center;
+    display: flex; 
+    background: white;
+    margin: 5rpx auto;
+}
+.item1-image{
+    width: 50rpx;
+    height: 50rpx;
+    /* float: left; */
+    margin-left: 20rpx;
 
 }
-.button1-image{
-
-      width: 80%;
-      height: 250rpx;
-
-
+.item1-text{
+  width: auto;
+  line-height: 50rpx;
+  
+  font-size: 30rpx;
+  color: #000000;
+   /* float: left; */
+  margin-left: 20rpx;
 
 }
-.button1-text{
-    float: left;
-
-
+.item1-image1{
+    width: 50rpx;
+    height: 50rpx;
+    /* float: left; */
+   margin-left:430rpx;
 }

@@ -4,79 +4,34 @@
 <view   class='page'>
 <!-- 头部 -->
     <view  class='title'>
-        <image class='title-image' src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk0.png'  ></image>
-        <text  class='title-text1'>PONY</text>
-        <text  class='title-text2'>韩国顶级彩妆化妆师，是多个韩国顶级艺人御用化妆师，优秀的化妆技巧以及独特的妆容风格使她收获全球各地无数粉丝，PONY多次与各大彩妆品牌推出合作系列以及拥有自己的同名彩妆品牌。</text>
+        <image class='title-image' src='{{dkimage}}'  ></image>
+        <text  class='title-text1'>{{dkname}}</text>
+        <text  class='title-text2'>{{dkjj}}</text>
     
     </view>
 
-  <view class='item'>
-          <view class='item-beijing'></view>
-          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk1.jpg' ></image>
-          <view  class='item-view'>
-            <view>
-            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
-            </view>
-            <view>
-             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
-            </view>
-         </view>
-         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
-        </view>
-  <view class='item'>
-          <view class='item-beijing'></view>
-          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk2.jpg' ></image>
-          <view  class='item-view'>
-            <view>
-            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
-            </view>
-            <view>
-             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
-            </view>
-         </view>
-         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
-        </view>
-          <view class='item'>
-          <view class='item-beijing'></view>
-          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk3.jpg' ></image>
-          <view  class='item-view'>
-            <view>
-            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
-            </view>
-            <view>
-             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
-            </view>
-         </view>
-         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
-        </view>
-          <view class='item'>
-          <view class='item-beijing'></view>
-          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk4.jpg' ></image>
-          <view  class='item-view'>
-            <view>
-            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
-            </view>
-            <view>
-             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
-            </view>
-         </view>
-         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
-        </view>
 
- 
-          <view class='item'>
+      <view class='page-body' wx:for="{{list}}" wx:key="id">
+    <!--类型判断,显示不同的数据-->
+    <block wx:if="{{type === 'us_box'}}">
+      <navigator url='/pages/main/simple/text?data1={{item.SPMC}}'>
+        <view class='item'>
           <view class='item-beijing'></view>
-          <image class='item-image'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/dk5.jpg' ></image>
+          <image class='item-image'  src='{{item.imagepath}}' ></image>
           <view  class='item-view'>
             <view>
-            <text class='item-text1'>pony秋冬迷人酒红色妆容</text>
+            <text class='item-text1'>{{item.bt}}</text>
             </view>
             <view>
-             <text class='item-text2'>教大家用不同颜色的遮瑕哦！</text>
+             <text class='item-text2'>{{item.wb}}</text>
             </view>
          </view>
-         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
+      
+
         </view>
+      </navigator>
+    </block>
+ </view>
 
 
       <image  class='cxgx' src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/cxgx.png'></image>

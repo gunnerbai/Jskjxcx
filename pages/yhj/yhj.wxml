@@ -1,13 +1,13 @@
 <!--pages/yhj/yhj.wxml-->
 <view  class='pages'>
       <view class='title'>
-          <image  class='title-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/yhj/banner.jpg'></image>
+          <image  class='title-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/banner.jpg'></image>
       </view>
           <view class='center'>
-          <image  class='center-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/yhj/hyk.png'>    </image>
-          <image  class='center-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/yhj/jck.png'>    </image>
-          <image  class='center-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/yhj/yhk.png'>    </image>
-          <image  class='center-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/yhj/gqyhj.png'>  </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/hyk.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/jck.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/yhk.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/gqyhj.png'>  </image>
           </view>
         <view>
         

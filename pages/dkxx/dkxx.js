@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    imagesrc: 'https://aaa.viidrive.com/XCXWebPro/wsz.png',
     dkimage:"",
     dkname:"",
     dkjj:""
@@ -26,7 +26,7 @@ Page({
     })
 
     // 拼接请求url
-    const url = 'https://gunnerbai.mynatapp.cc/XCXWebPro/ShowDataServlet';
+    const url = 'https://aaa.viidrive.com/XCXWebPro/ShowDataServlet';
     // 请求数据
     wx.request({
       url: url,

@@ -1,4 +1,5 @@
 /* pages/main/advanced/text.wxss */
+
 .camera{
   height: 100%;
   width: 100%;
@@ -7,11 +8,7 @@
   flex-direction:column;
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  /* float: left; */
-  /* position: absolute;
-  left: 0;
-  top: 0; */
-  /* z-index: -1; */
+
 }
 .verifycode-cover1{
   height: 100%;
@@ -26,7 +23,7 @@
 }
 .verifycode-cover{
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
 .upload{
  height: 1170rpx;
@@ -55,15 +52,16 @@ display: block;
   /* flex-direction:column; */
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  width: 100px;
-  height: 90px;
+  width: 35%;
+  height: 20%;
   position: absolute;
+  /* border: 1px solid black; */
 
   /* border-radius: 50%; */
   /* position: absolute; */
   /* bottom: 1170rpx; */
-  left: 35%;
-  top: 77%;
+  left: 31.5%;
+  top: 71%;
 }
 .re-modal{
   height: 100%;
@@ -120,23 +118,76 @@ modal view{
 .button-text-view{
   width: 100%;
   height: auto;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  align-items:center;/*垂直居中*/
-  justify-content: center;/*水平居中*/
+   display:flex;
+  flex-direction:column;
+  
+
   z-index: 9999;
   color: #757474;
- display:flex;
-  flex-direction:column;
-  font-size: 33rpx;
+  /* border: 1px solid black; */
 
+  font-size: 29rpx;
+
+}
+.verifycode-tishi{
+
+  width: 300rpx;
+  height: 75rpx;
+  position: absolute;
+  left: 230rpx;
+  top: 10rpx;
+/* margin:  0 auto; */
+  /* margin: 0 auto; */
 }
 .button-text{
  
   width: auto;
   height: auto;
-  margin-bottom: 45rpx;
+ margin: 0 auto;
+ margin-bottom: 40rpx;
 
 
 }
 
+.verifycode-ooo{
+  width: 200rpx;
+  height: 70rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 10rpx;
+ /* border:  1px solid black; */
+}
+
+.bottm-wi{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    /* position: absolute; */
+    /* bottom: 0; */
+     /* border:  1px solid black; */
+  
+}
+.pe{
+
+  width: 130rpx;
+  height: 200rpx;
+  position: absolute;
+  bottom: 50rpx;
+
+  left: 5%;
+  /* border:  1px solid black; */
+
+
+}
+.verifycode-pzts{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  z-index: 999;
+
+
+}

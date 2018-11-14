@@ -1,65 +1,62 @@
 
 {
   "pages": [
-    "pages/listview/listview",
+    "pages/m/m",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/main/videoshow/videoshow",
+    "pages/main/load/load",
+    "pages/main/recharge/text",
+    "pages/tologin/tologin",
+    "pages/jzym/jzym",
+    "pages/main/simple/text",
     "pages/dkx/dkx",
+    "pages/main/imagecc/iamgecc",
+    "pages/listview/listview",
+    "pages/datashow/datashow",
     "pages/wdsc/wdsc",
     "pages/dkxx/dkxx",
     "pages/wdgz/wdgz",
     "pages/yhj/yhj",
-    "pages/logs/logs",
-    "pages/datashow/datashow",
-    "pages/main/simple/text",
-    "pages/index/index",
-    "pages/main/recharge/text",
-    "pages/main/videoshow/videoshow",
     "pages/item/item",
     "pages/main/introduce/introduce",
-    "pages/main/imagecc/iamgecc",
     "pages/main/imagecc2/iamgecc",
     "pages/main/mine/text",
     "pages/main/advanced/text"
   ],
-  "subpackages":[
-    {
-      "root":"packageShop",
-      "pages":[
-        "pages/index/index"
-      ]
-    }
-  ],
+  
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#b81c25",
-    "navigationBarTitleText": "AI魔镜",
+    "navigationBarTitleText": "AI斩男决",
     "navigationBarTextStyle": "#ffffff"
   }
   ,
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "selectedColor": "#f56565",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/index/index",
-          "iconPath": "pages/img/p.png",
-          "selectedIconPath": "pages/img/p.png",
+          "iconPath": "pages/img/p1.png",
+          "selectedIconPath": "pages/img/p2.png",
           "color": "#000000",
-        "text": "个人秀"
+        "text": "AI相机"
       },
         {
           "pagePath": "pages/dkx/dkx",
-          "iconPath": "pages/img/f.png",
-          "selectedIconPath": "pages/img/f.png",
+          "iconPath": "pages/img/f1.png",
+          "selectedIconPath": "pages/img/f2.png",
           "color": "#000000",
           "text": "美妆秀"
         }
         ,
         {
           "pagePath": "pages/listview/listview",
-          "iconPath": "pages/img/f.png",
-          "selectedIconPath": "pages/img/f.png",
+          "iconPath": "pages/img/g1.png",
+          "selectedIconPath": "pages/img/g2.png",
           "color": "#000000",
           "text": "个人中心"
         }

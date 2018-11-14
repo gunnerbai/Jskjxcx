@@ -15,7 +15,7 @@
 .title{
   width: 100%;
   height: 300rpx;
-  background-image: url('http://gunnerbai.mynatapp.cc/XCXWebPro/grzx.png') ;
+  background-image: url('https://aaa.viidrive.com/XCXWebPro/grzx.png') ;
    /* background-size:100% 100%; */
    /* background-size: cover; */
 
@@ -38,6 +38,7 @@ background-repeat:no-repeat;
     height: 180rpx;
     /* float: left; */
     margin-left: 80rpx;
+    border-radius: 50%;
  
 
 }

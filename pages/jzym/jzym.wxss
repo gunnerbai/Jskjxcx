@@ -1,0 +1,129 @@
+/* pages/jzym/jzym.wxss */
+.pages{
+
+
+  height: 100%;
+  width: 100%;
+    position: fixed;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+  background:url('https://aaa.viidrive.com/XCXWebPro/img/xxyback.jpg')no-repeat fixed ;
+  background-size: 100% ;
+}
+.center{
+  width: 100%;
+  /* margin-top: 50rpx; */
+    /* position: fixed; */
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+
+
+
+}
+
+.center view {
+    font-size: 36rpx;
+    border: 1px solid white;
+    border-radius: 50rpx;
+    padding: 5rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    font-weight: normal;
+    color: white;
+}
+.center-text1{
+    position: absolute;
+    top: 27%;
+    left:5%;
+
+
+}
+.center-text2{
+    position: absolute;
+    top: 27%;
+    left:33%;
+
+
+}
+.center-text3{
+    position: absolute;
+    top: 33%;
+    left: 5%;
+
+
+}
+.center-text4{
+    position: absolute;
+    top: 33%;
+    left: 51%;
+
+
+}
+.center-text5{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+
+}
+.center-text6{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+
+
+}
+.center-text7{
+    position: absolute;
+    top: 40%;
+    left: 59%;
+
+
+}
+.center-text8{
+    position: absolute;
+    top: 47%;
+    left: 5%;
+
+
+}
+.center-text9{
+    position: absolute;
+    top: 47%;
+    left: 35%;
+
+
+}
+.center-text10{
+    position: absolute;
+    top: 54%;
+    left: 5%;
+
+
+}
+.center-text11{
+    position: absolute;
+    top: 54%;
+    left: 35%;
+
+
+}
+.center-text12{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    
+}
+
+.qcbtn{
+
+    width: 80%;
+    height: 100rpx;
+    position: absolute;
+    top: 80%;
+
+}

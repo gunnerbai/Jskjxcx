@@ -14,7 +14,7 @@
       <view class='page-body' wx:for="{{list}}" wx:key="id">
     <!--类型判断,显示不同的数据-->
     <block wx:if="{{type === 'us_box'}}">
-      <navigator url='/pages/main/simple/text?data1={{item.SPMC}}'>
+      <navigator url='/pages/main/simple/text?data1={{item.SPMC}}&data2={{item.bt}}&data3={{item.wb}}&data4={{item.SPZF}}'>
         <view class='item'>
           <view class='item-beijing'></view>
           <image class='item-image'  src='{{item.imagepath}}' ></image>
@@ -33,6 +33,7 @@
     </block>
  </view>
 
-
-      <image  class='cxgx' src='http://gunnerbai.mynatapp.cc/XCXWebPro/dkxx/cxgx.png'></image>
+      <view  class='bootm'>
+      <image  class='cxgx' src='https://aaa.viidrive.com/XCXWebPro/dkxx/cxgx.png'></image>
+      </view>
 </view>

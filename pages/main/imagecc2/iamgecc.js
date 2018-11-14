@@ -9,7 +9,9 @@ Page({
   data: {
     src111:"",
     name:"",
-    name1:""
+    name1:"",
+      btnwa: '请将正脸按照图形方向进行拍摄',
+    bhbbbbbbbb: true
   },
 
   /**
@@ -95,7 +97,8 @@ Page({
 
         })
 
-
+        var images1 = ["../image/lxtx2.png", "../image/lxtx3.png", "../image/lxtx4.png"];
+        var images2 = ["请将左侧脸按照图形方向进行拍摄", "请将右侧脸按照图形方向进行拍摄", "这一张要从额头上方往下拍哦"];
 
         console.log("src111" + src)
 
@@ -107,7 +110,7 @@ Page({
 
           that.setData({
             name: res.tempImagePath,
-
+            btnwa: images2[0],
             name1: "btn1",
 
 
@@ -119,14 +122,14 @@ Page({
         } else if (src == "../image/psy2.png") {
           that.setData({
             name: res.tempImagePath,
-
+            btnwa: images2[1],
             name1: "btn2",
           });        
 
         } else if (src == "../image/psy3.png") {
           that.setData({
             name: res.tempImagePath,
-
+            btnwa: images2[2],
             name1: "btn3"
           })
  

@@ -20,23 +20,23 @@ margin: 0;
 
 .img1{
 position:absolute;
-left:3%;
-top: 2%;
+left:1%;
+top: 1%;
 float: left;
 background: gainsboro;
-width: 45%;
+width: 48.5%;
 /* margin: 1px; */
-height: 35%;
+height: 35.5%;
 
 }
 .img2{
 position:absolute;
-right:3%;
-top: 2%;
+right:1%;
+top: 1%;
 float: left;
 background: gainsboro;
-width: 45%;
-height: 35%;
+width: 48.5%;
+height: 35.5%;
 
   
 }
@@ -44,32 +44,32 @@ height: 35%;
 
 /* background: green; */
 position:absolute;
-left:3%;
-top: 39%;
+left:1%;
+top: 37%;
 float: left;
 background: gainsboro;
-width: 45%;
+width: 48.5%;
 height: 35%;
   
 }
 .img4{
 /* background: green; */
 position:absolute;
-right:3%;
-top: 39%;
+right:1%;
+top: 37%;
 float: left;
 background: gainsboro;
-width: 45%;
+width: 48.5%;
 height: 35%;
 
   
 }
 .imageccbutton1{
-width: 80%;
-height: 70px;
+width: 90%;
+height: 230rpx;
 position: absolute;
-top: 80%;
-left: 10%;
+top: 73%;
+/* left: 10%; */
 
 
 }
@@ -105,11 +105,11 @@ text-align: center;
 .imagecc-button-btn{
   width: auto;
   line-height: 15px;
-  font-size: 20px; 
+  font-size: 18px; 
   font-weight: 500;
   margin: 0 auto;
   /* align-items: center center; */
-color: black;
+color: rgb(177, 173, 173);
  /* border: 2rpx black solid; */
   /* width: 400rpx;
   height: 200rpx; */

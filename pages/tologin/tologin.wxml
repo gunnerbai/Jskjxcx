@@ -1,0 +1,10 @@
+<!--pages/tologin/tologin.wxml-->
+<view class="image-div">
+<!-- <image src='../img/gz.png' ></image>
+<button class='btn_yzm' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"  bindtap="primary"> 授权登录 </button> -->
+<button class='btn_yzm1' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"  bindtap="primary"> 
+      <image class='sqdl' src='../img/sqdl.png'></image>
+
+
+ </button>
+</view>

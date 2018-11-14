@@ -205,7 +205,7 @@ Page({
 
 
     wx.uploadFile({
-      url: 'https://gunnerbai.mynatapp.cc/XCXWebPro/JsonServlet',
+      url: 'https://aaa.viidrive.com/XCXWebPro/JsonServlet',
       filePath: that.data.image1,
       name: 'file',
       success: (res) => {
@@ -230,7 +230,7 @@ Page({
 
   }
   ,imageccbutton2:function(){
-
+    
     wx.reLaunch({
       url: '/pages/index/index',
     })

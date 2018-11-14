@@ -1,0 +1,49 @@
+/* pages/main/load/load.wxss */
+.pages{
+
+    height: 100%;
+  width: 100%;
+  position: fixed;
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+  /* background: rgb(250, 247, 247); */
+}
+.body{
+    position: absolute;
+      width: 100%;
+      height: 60%;
+      top: 0;
+
+}
+.body-up{
+      width: 100%;
+      height: 600rpx;
+     
+
+
+}
+.body-image{
+
+      width: 100%;
+      height: 100%;
+      
+
+
+}
+.image{
+    width: 70%;
+    height: 200rpx;
+    position: absolute;
+    top: 70%;
+    
+
+
+}
+.text{
+  font-size: 30rpx;
+  position: absolute;
+    bottom: 3%;
+    color: rgb(165, 161, 161);
+}

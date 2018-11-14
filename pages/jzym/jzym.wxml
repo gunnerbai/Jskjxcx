@@ -1,0 +1,25 @@
+<!--pages/jzym/jzym.wxml-->
+<view class='pages'>
+
+  <view class='center'>
+  
+
+    <view catchtap='btn1' style="background-color:{{aaa}}"class='center-text1'>IT工程师</view>
+    <view  catchtap='btn2'  style="background-color:{{bbb}}" class='center-text2'>金融财经男</view>
+    <view catchtap='btn3'  style="background-color:{{ccc}}"  class='center-text3'>新闻/传媒/广告男</view>
+    <view  catchtap='btn4'  style="background-color:{{ddd}}" class='center-text4'>体育/健身男</view>
+    <view  catchtap='btn5'  style="background-color:{{eee}}" class='center-text5'>学校/教育</view>
+    <view  catchtap='btn6' style="background-color:{{fff}}"  class='center-text6'>公务员</view>
+    <view  catchtap='btn7'  style="background-color:{{ggg}}" class='center-text7'>插画/设计师</view>
+    <view catchtap='btn8'  style="background-color:{{hhh}}"  class='center-text8'>医生/护理</view>
+    <view   catchtap='btn9' style="background-color:{{iii}}" class='center-text9'>律师/政法</view>
+    <view catchtap='btn10' style="background-color:{{jjj}}"  class='center-text10'>摄影/电影</view>
+    <view  catchtap='btn11' style="background-color:{{kkk}}" class='center-text11'>文艺/音乐</view>
+    <view   catchtap='btn12' style="background-color:{{lll}}" class='center-text12'>其他</view>
+
+
+  </view>
+
+
+      <image catchtap='qcbtn' class='qcbtn'  src='../img/qc.png'></image>
+</view>

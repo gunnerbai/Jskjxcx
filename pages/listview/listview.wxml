@@ -1,9 +1,10 @@
 <view  class='pages'>
-
+<!-- http://gunnerbai.mynatapp.cc/XCXWebPro/grzx/tx.png -->
     <view class='title'>
     <view   class='title-user'>
-      <image  class='tile-userimage'  src='http://gunnerbai.mynatapp.cc/XCXWebPro/grzx/tx.png'   ></image>
-      <view  class='title-username'>银灰色的白</view>
+      <image  class='tile-userimage'  src='{{TXURL}}'   ></image>
+      <view  class='title-username'>{{username}}</view>
+      <!-- <button open-type='getUserInfo'></button> -->
       </view>
     </view>
       <view class='center'>
@@ -22,7 +23,7 @@
              </view>
              <view class='center-line'> </view>
             <view class='center-text3'> 
-               <text class='center-zb'>2</text>
+               <text class='center-zb'>3</text>
               <text class='center-zw' >优惠券</text>
             </view>
             </view>

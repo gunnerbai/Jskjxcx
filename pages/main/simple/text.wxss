@@ -11,29 +11,30 @@
 
 }
 .simple-center{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 
 
 }
 
 .simple-text2 ,.simple-text3, .simple-text4,.simple-text5{
-    font-size: 12px;
+    font-size: 27rpx;
      display: inline-block;
      line-height: 30px;
+     color: rgb(153, 150, 150);
 
 }
 .simple-text1{
   display: inline-block;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
 .simple-text2{
   margin-top: 10px;
   /* display: inline-block; */
-  background: red;
-  color: white;
-  font-size: 16px;
+  /* background: red; */
+  color: rgb(116, 112, 112);
+  font-size: 18px;
 }
 .simple-text3{
   margin: 20px auto;
@@ -41,26 +42,33 @@
 
 }
 
-/* http://gunnerbai.mynatapp.cc/XCXWebPro/ */
+/* https://aaa.viidrive.com/XCXWebPro/ysz.png/ */
 .simple-img{
   width: 100%;
-  height: 200px;
+  height: 170px;
 
-  background: url('http://gunnerbai.mynatapp.cc/XCXWebPro/bjht.png');
+  /* background: url('https://aaa.viidrive.com/XCXWebPro/ysz.png/bjht.png'); */
     background-repeat:no-repeat;
    background-size:100% 100%;
    -moz-background-size:100% 100%;
-   margin: 40px auto;
+   margin: 10px auto;
 
 }
 .simple-btn-more{
+  margin-top: 50rpx;
 border-radius: 20px;
-  margin-bottom: 15rpx;
+  margin-bottom: 35rpx;
+  border: 1px solid black;
+  width: 80%;
+  background: white;
 
 
 }
 .simple-btn-back{
-
+  margin-bottom:100rpx;
+  border: 1px solid black;
+  width: 80%;
+  background: white;
 border-radius: 20px;
 }
 .Dline{

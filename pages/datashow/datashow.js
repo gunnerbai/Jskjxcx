@@ -10,7 +10,7 @@ Page({
     type: '', // 数据类型
     loading: true, // 显示等待框
     data1:'',
-    imagesrc:'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    imagesrc:'https://aaa.viidrive.com/XCXWebPro/wsz.png',
     job: [],
     jobList: [],
     id: '',
@@ -30,7 +30,7 @@ Page({
 
     })
     // 拼接请求url
-    const url = 'https://gunnerbai.mynatapp.cc/XCXWebPro/ShowDataServlet' ;
+    const url = 'https://aaa.viidrive.com/XCXWebPro/ShowDataServlet' ;
       // 请求数据
       wx.request({
         url: url,
@@ -97,7 +97,7 @@ Page({
       var that = this;
       that.setData({
 
-        imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'
+        imagesrc: 'https://aaa.viidrive.com/XCXWebPro/ysz.png'
 
 
       })

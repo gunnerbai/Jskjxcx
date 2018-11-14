@@ -2,55 +2,55 @@
 <view  class='pages'>
   
   <view class='title'>
-          <image  class='title-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/banner.jpg'></image>
-          <image class='title-text' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/wdgz.png'></image>
+          <image  class='title-image' src='https://aaa.viidrive.com/XCXWebPro/wdgz/banner.jpg'></image>
+          <image class='title-text' src='https://aaa.viidrive.com/XCXWebPro/wdgz/wdgz.png'></image>
       </view>
     <view class='center' >
 <view class='s-line'></view>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz1.png'  catchtap='btn1'  ></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx1.png'  catchtap='btn1'  ></image>
         <view class='table-view1-view'>PONY</view>
 
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz2.png'></image>
-        <view class='table-view2-view'>Egee</view>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx2.png'  catchtap='btn2' ></image>
+        <view class='table-view2-view'>党妹</view>
       </view>
        <view class='h-line'></view>
       
       <view>
         <view class='table-view1'>
-        <image  class='table-view1-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz3.png'  catchtap='btn1'  ></image>
-        <view class='table-view1-view'>leean</view>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx3.png'  catchtap='btn3'  ></image>
+        <view class='table-view1-view'>lamuqe金宝环</view>
 
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz4.png'></image>
-        <view class='table-view2-view'>lamuqe金宝环</view>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx4.png'  catchtap='btn4' ></image>
+        <view class='table-view2-view'>CHES</view>
       </view>
        <view class='h-line'></view>
           <view class='table-view1'>
-        <image  class='table-view1-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz5.png'  catchtap='btn1'  ></image>
-        <view class='table-view1-view'>TKATIEJL</view>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx5.png'  catchtap='btn5'  ></image>
+        <view class='table-view1-view'>大宝</view>
 
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz6.png'></image>
-        <view class='table-view2-view'>Fitzgerald</view>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx6.png'  catchtap='btn6' ></image>
+        <view class='table-view2-view'>BENVARAPORN</view>
       </view>
        <view class='h-line'></view>
            <view class='table-view1'>
-        <image  class='table-view1-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz7.png'  catchtap='btn1'  ></image>
-        <view class='table-view1-view'>毛戈平</view>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx7.png'  catchtap='btn7'  ></image>
+        <view class='table-view1-view'>WenWen</view>
 
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/gz8.png'></image>
-        <view class='table-view2-view'>党妹</view>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx8.png'  catchtap='btn8' ></image>
+        <view class='table-view2-view'>仇仇</view>
       </view>
 
       
@@ -61,7 +61,7 @@
     </view>
     
 
-    <image  class='low' src='https://gunnerbai.mynatapp.cc/XCXWebPro/wdgz/dbts.png'></image>
+    <image  class='low' src='https://aaa.viidrive.com/XCXWebPro/wdgz/dbts.png'></image>
 
 
 </view>

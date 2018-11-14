@@ -1,4 +1,4 @@
-<!--pages/main/imagecc2/iamgecc.wxml-->
+<!-- 
 
 <view   class='upload'>
     <camera class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
@@ -21,4 +21,50 @@
     </camera>
      
 
+</view> -->
+
+
+<!--pages/main/recharge/text.wxml-->
+<import src="../src/wetoast.wxml"/>
+<view    class='upload'>
+  <!-- <view class='re-modal'  >
+ <modal style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true"  class="re-modal-modal">
+<view>
+<image class="rechare-image" src="../image/pszy.png" mode='widthFix'></image>
 </view>
+
+<view  class='re-modal-text1'>请依次拍摄四个角度照片</view>
+<view class='re-modal-text2'>点击"确认生成"</view>
+</modal>
+</view> -->
+    <camera  class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
+    <cover-image  hidden='{{bhaaaaaa}}'   class='verifycode-cover'  src="{{src111}}" ></cover-image>
+     <cover-image  catchtap='onoff'  class='verifycode-ooo'  src="{{onoffimage}}" ></cover-image>
+    <cover-image   class='verifycode-tishi'  src="{{src222}}" ></cover-image>
+    <cover-view  class='cover-view'>
+
+     <!-- <cover-view  class='set-wrap' >
+         <cover-view class='num1'>{{nuller}}</cover-view>
+         <cover-view class='num2'>2</cover-view>
+         <cover-view class='num3'>3</cover-view>
+     </cover-view> -->
+      <!-- <cover-view class='main_tips'>眨眼睛</cover-view>
+      <cover-view class='sub_tips'>倒计时10秒</cover-view> -->
+    </cover-view>
+     
+     <cover-view  class='bottm-wi'> </cover-view>
+     <cover-image class='btn1' catchtap='buton1' src="../image/psan.png">拍照</cover-image>
+  
+    
+          <cover-image  hidden='{{bhbbbbbbbb}}'   class='pe'src="../image/pe.png">拍照</cover-image>
+
+      <cover-view  class='button-text-view'>
+       
+     <cover-view   class='button-text'>{{btnwa}}</cover-view>
+     </cover-view>
+    </camera>
+    <!-- wetoast -->
+</view>
+    <!-- <image class='btn1' catchtap='buton1' src="../image/nihao.gif"></image> -->
+<template is="wetoast" data="{{...__wetoast__}}"/>
+

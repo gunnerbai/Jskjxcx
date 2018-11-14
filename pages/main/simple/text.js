@@ -5,13 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/wsz.png',
+    imagesrc: 'https://aaa.viidrive.com/XCXWebPro/wsz.png',
     job: [],
     jobList: [],
     id: '',
     isClick: false,
     jobStorage: [],
-    jobId: ''
+    jobId: '',
+    image1:'https://aaa.viidrive.com/XCXWebPro/bjht.png',
+    image2: 'https://aaa.viidrive.com/XCXWebPro/bjht.png',
+    image3: 'https://aaa.viidrive.com/XCXWebPro/bjht.png',
+    ZBT:'',
+    FBT:'',
+    SPZF:''
 
   },
 
@@ -21,7 +27,17 @@ Page({
   onLoad: function (options) {
     var that = this;
     console.log(options.data1);
-    that.setData({ videurl: "https://gunnerbai.mynatapp.cc/XCXWebPro/spsc/" + options.data1 + ".mp4" })
+    that.setData({ videurl: "https://aaa.viidrive.com/XCXWebPro/spsc/" + options.data1 + ".mp4",
+      ZBT: options.data2,
+      FBT: options.data3,
+    SPZF: options.data4,
+      image1: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "02.jpg",
+      image2: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "03.jpg",
+      image3: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "04.jpg",
+    
+    
+    
+     })
   },
 
   /**
@@ -91,13 +107,10 @@ Page({
   }
   ,
   simplebtnmore: function () {
-
    wx.showToast({
      title: '敬请期待后续内容...',
      icon:'none'
    })
-
-
   },
   haveSave(e) {
     if (!this.data.isClick == true) {
@@ -123,7 +136,7 @@ Page({
   itemgz: function () {
     var that = this;
     that.setData({
-      imagesrc: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ysz.png'
+      imagesrc: 'https://aaa.viidrive.com/XCXWebPro/ysz.png'
     })
     wx.showToast({
       title: '已收藏',

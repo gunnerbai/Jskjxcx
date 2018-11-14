@@ -4,17 +4,28 @@ var count1 = 0;
 var imagepath=new Array();
 let app = getApp();
 let mytoast;
+var bl = true;
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    src111:"../image/psy1.png",
+    // src111:"../image/psy1.png",
+    src222: "../image/lxtx1.png",
+    src333: "../image/pzzl.jpg",
     modalHidden: false,
     hiddenaaa:false,
     displayaaa: "block",
     displaybbb:"none",
+    bhaaaaaa: false,
+    onoffimage:'../image/on.png',
+    i: 1,
+    bbbbbbb:true,
+    btnwa:'请平视镜头对准正脸进行拍摄',
+    bhbbbbbbbb:true,
+    bhcccccc:false,
+    modalHidden11111:true    
   },
 
   /**
@@ -63,7 +74,7 @@ Page({
    */
   onUnload: function () {
     console.log(imagepath)
-
+    count = 0;
     wx.setStorage({
 
       key: 'imagepath',
@@ -117,23 +128,38 @@ Page({
       modalHidden: true
     })
   },
+  pzts:function(){
+        var that = this;
+    console.log(that.data.displayaaa);
+    console.log(that.data.displaybbb);
+        that.setData({
+          displayaaa: "none",
+          displaybbb: "block",
+          modalHidden:true,
+          modalHidden11111: false    
+
+        })
+
+
+
+  },
 
   /**
   * 点击确认
   */
   modalConfirm: function () {
     // do something
-    
-    this.setData({
-      modalHidden: true,
-      displayaaa: "none",
-      displaybbb: "block"
-      // hiddenaaa: true
-    })
+ 
+
   },
   buton1:function(){
     var that = this;
-    var images = ["../image/psy2.png", "../image/psy3.png", "../image/psy4.png"];
+
+   
+    // var images = ["../image/psy2.png", "../image/psy3.png", "../image/psy4.png"];
+    var images1 = ["../image/lxtx3.png", "../image/lxtx2.png", "../image/lxtx4.png"];
+    var images2 = ["请平视镜头对准左侧脸进行拍摄", "请平视镜头对准右侧脸进行拍摄", "要从额头上方45°往下拍哦"];
+    var images3 = ["../image/pzzc.jpg", "../image/pzyl.jpg", "../image/pzsf.jpg"];
     // this.wetoast.toast({
     //   title: 'WeToast'
     //   // img: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ymsm.png',
@@ -144,59 +170,86 @@ Page({
     wx.showLoading({
       title: '正在保存请稍后',
     })
-    that.ctx.takePhoto({
-      quality: 'low',
-    
-      success: (res) => {
-        // console.log(res.tempImagePath);
-        imagepath.push(res.tempImagePath);
-        // console.log(imagepath.length);
-        // console.log(res)
-        that.setData({
-          // src: res.tempImagePath
-          imagepath
-       
-        })
-        
-        console.log("拍照的image"+imagepath)
-        // wx.switchTab({
-        //   url: '../mine/text',
+    if(count<4){
 
-        // }
-    
-        wx.saveImageToPhotosAlbum({
-          filePath: res.tempImagePath,
-          success: function (res) {
-            // imagepath.push(res.tempImagePath);
-            console.log(res)
-            // that.setData({
-            //   // src: res.tempImagePath
-            //   imagepath
+      that.ctx.takePhoto({
+        quality: 'low',
 
-            // })
-          },
-          fail: function (res) {
-            console.log("照片存储报错"+res)
-            console.log('fail')
-          }
-        })      
-      }
-    })
-    if (count < 3) {
-      // console.log(count);
-      // console.log(images[count]);
+        success: (res) => {
+          // console.log(res.tempImagePath);
+          imagepath.push(res.tempImagePath);
+          // console.log(imagepath.length);
+          // console.log(res)
+          that.setData({
+            // src: res.tempImagePath
+            imagepath
+
+          })
+
+          console.log("拍照的image" + imagepath)
+          // wx.switchTab({
+          //   url: '../mine/text',
+
+          // }
+
+          // wx.saveImageToPhotosAlbum({
+          //   filePath: res.tempImagePath,
+          //   success: function (res) {
+          //     // imagepath.push(res.tempImagePath);
+          //     console.log(res)
+          //     // that.setData({
+          //     //   // src: res.tempImagePath
+          //     //   imagepath
+
+          //     // })
+          //   },
+          //   fail: function (res) {
+          //     console.log("照片存储报错" + res)
+          //     console.log('fail')
+          //   }
+          // })
+        }
+      })
+
+    }
+
+    if (count < 2) {
+    
+
 
       that.setData({
         // src: res.tempImagePath
-        
-        src111: images[count]
-
+        modalHidden: false,
+        modalHidden11111: true, 
+        // src111: images[count],
+        src222: images1[count],
+        src333: images3[count],
+        btnwa: images2[count]
       })
       // console.log(src)
       count++;
       wx.hideLoading();
-    }else {
-      count=0;
+    } else if (count ==2){
+
+
+      that.setData({
+        // src: res.tempImagePath
+
+        // src111: images[count],
+        modalHidden: false,
+        modalHidden11111: true, 
+        src222: images1[count],
+        btnwa: images2[count],
+        src333: images3[count],
+        bhbbbbbbbb: false
+      })
+      // console.log(src)
+      count++;
+      wx.hideLoading();
+
+
+    } else if (count == 3 && bl == true  ) {
+      bl =false;
       wx.showLoading({
         title: '跳转中....请稍后',
       })
@@ -217,6 +270,43 @@ Page({
 
     }
 
+
+  },
+  onoff:function(){
+    console.log("onoff")
+   var that = this;
+    console.log(that.data.i, "i")  ;  
+    if (that.data.i == 1) {
+      
+      
+      that.data.i = 2, 
+      that.setData({ 
+        bhaaaaaa: true,
+        onoffimage: '../image/off.png',
+       
+        bbbbbbb: false
+       })
+      
+      
+       } 
+    
+    
+    
+    else { 
+      
+      
+      that.data.i = 1,
+       that.setData({ 
+        bhaaaaaa: false, 
+      
+        onoffimage: '../image/on.png',
+        bbbbbbb: true,
+      
+      })
+      
+      
+      
+       } 
 
   }
 

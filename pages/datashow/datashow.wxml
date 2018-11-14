@@ -10,7 +10,7 @@
   <view class='page-body' wx:for="{{list}}" wx:key="id">
     <!--类型判断,显示不同的数据-->
     <block wx:if="{{type === 'us_box'}}">
-      <navigator url='/pages/main/simple/text?data1={{item.SPMC}}'>
+      <navigator url='/pages/main/simple/text?data1={{item.SPMC}}&data2={{item.bt}}&data3={{item.wb}}&data4={{item.SPZF}}'>
         <view class='item'>
           <view class='item-beijing'></view>
           <image class='item-image'  src='{{item.imagepath}}' ></image>
@@ -22,8 +22,8 @@
              <text class='item-text2'>{{item.wb}}</text>
             </view>
          </view>
-      
-
+        
+        
         </view>
       </navigator>
     </block>

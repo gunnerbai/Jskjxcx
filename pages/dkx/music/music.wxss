@@ -11,6 +11,7 @@
 .table-view1{
 width: 45%;
 float: left;
+padding-bottom: 20rpx;
 margin-top: 20rpx;
 margin-bottom: 20rpx;
 margin-left: 20rpx;
@@ -20,6 +21,7 @@ border-radius: 20px;
 }
 .table-view2{
 width: 45%;
+padding-bottom: 20rpx;
 float: right;
 margin-right: 20rpx;
 margin-top: 20rpx;
@@ -41,11 +43,15 @@ border-radius: 20px;
 .table-view1-text ,.table-view2-text{
     display: -webkit-box;
     font-size:28rpx;
+    margin: auto 23rpx;
     color:#7c7979;
     line-height: 40rpx;
+    margin-top: 15rpx;
     word-break: break-all;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp:3;
+    -webkit-line-clamp:2;
+    word-spacing:500rpx;
+    letter-spacing:1px; 
     overflow: hidden;
     text-overflow:ellipsis;
 
@@ -53,13 +59,14 @@ border-radius: 20px;
 }
 
 .table-view1-view,.table-view2-view{
-
+    
     width: 80%;
     height: auto;
     font-size: 28rpx;
     border: 2px solid black;
     border-radius: 10px;
     margin: 5px auto;
+    margin-top:30rpx;
     text-align: center;
 
 }

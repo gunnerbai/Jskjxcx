@@ -1,0 +1,21 @@
+<!--pages/main/load/load.wxml-->
+<view  class='pages'>
+
+
+      <view  class='body'>
+      
+          <!-- <view  class='body-up'> -->
+          <image  class='body-image' src='../image/pszy.png'></image>
+          
+          
+          <!-- </view> -->
+
+
+          <!-- <view  class='body-down'></view> -->
+      
+      </view>
+
+    <image catchtap='imagebtn' class='image'  src='../image/ksps.png'></image>
+    <view class='text'> 请依次拍摄四个角度照片然后进行AI鉴定</view>
+
+</view>

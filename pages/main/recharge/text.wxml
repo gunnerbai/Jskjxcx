@@ -1,30 +1,42 @@
 <!--pages/main/recharge/text.wxml-->
 <import src="../src/wetoast.wxml"/>
-<view    class='upload'>
-  <view class='re-modal'  >
+<view    class='upload' >
+  <!-- <view class='re-modal'  >
  <modal style="display:{{displayaaa}}"  hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel" no-cancel="true"  class="re-modal-modal">
 <view>
 <image class="rechare-image" src="../image/pszy.png" mode='widthFix'></image>
 </view>
-<!-- 需要换行的话直接添加view标签 -->
+
 <view  class='re-modal-text1'>请依次拍摄四个角度照片</view>
 <view class='re-modal-text2'>点击"确认生成"</view>
 </modal>
-</view>
-    <camera style="display:{{displaybbb}}" class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
-    <cover-image  class='verifycode-cover'  src="{{src111}}" ></cover-image>
+</view> -->
+ 
+    <camera     class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
+   <cover-image   hidden="{{modalHidden}}"     catchtap='pzts'   class='verifycode-pzts'  src="{{src333}}"></cover-image>
+    <cover-image hidden="{{modalHidden11111}}" class='verifycode-cover'  src="{{src111}}" ></cover-image>
+     <!-- <cover-image  catchtap='onoff'  class='verifycode-ooo'  src="{{onoffimage}}" ></cover-image> -->
+    <cover-image   class='verifycode-tishi'  src="{{src222}}" ></cover-image>
     <cover-view  class='cover-view'>
-     <cover-view  class='set-wrap' >
+
+     <!-- <cover-view  class='set-wrap' >
          <cover-view class='num1'>{{nuller}}</cover-view>
          <cover-view class='num2'>2</cover-view>
          <cover-view class='num3'>3</cover-view>
-     </cover-view>
-      <cover-view class='main_tips'>眨眼睛</cover-view>
-      <cover-view class='sub_tips'>倒计时10秒</cover-view>
+     </cover-view> -->
+      <!-- <cover-view class='main_tips'>眨眼睛</cover-view>
+      <cover-view class='sub_tips'>倒计时10秒</cover-view> -->
     </cover-view>
-     <cover-image class='btn1' catchtap='buton1' src="../image/psan.png">拍照</cover-image>
-      <cover-view  class='button-text-view'>
-     <cover-view  class='button-text'>请将正脸按照图形方向进行拍摄</cover-view>
+     
+     <cover-view   hidden="{{modalHidden11111}}"  class='bottm-wi'  > </cover-view>
+     <cover-image  hidden="{{modalHidden11111}}"  class='btn1'  disabled='false'  catchtap='buton1' src="../image/psan.png">拍照</cover-image>
+  
+    
+          <!-- <cover-image  hidden='{{bhbbbbbbbb}}'   class='pe'src="../image/pe.png">拍照</cover-image> -->
+
+      <cover-view   hidden="{{modalHidden11111}}"  class='button-text-view'>
+       
+     <cover-view   class='button-text'>{{btnwa}}</cover-view>
      </cover-view>
     </camera>
     <!-- wetoast -->

@@ -90,7 +90,7 @@ Page({
     // })
     console.log("点击了button");
     wx.reLaunch({
-      url: '../main/recharge/text'
+      url: '../main/load/load'
       
     })
   }

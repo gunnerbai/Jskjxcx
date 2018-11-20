@@ -2,7 +2,6 @@
 {
   "pages": [
     "pages/m/m",
-    "pages/main/videoshow/videoshow",
     "pages/logs/logs",
     "pages/index/index",
     "pages/main/load/load",
@@ -10,6 +9,7 @@
     "pages/tologin/tologin",
     "pages/jzym/jzym",
     "pages/main/simple/text",
+    "pages/main/videoshow/videoshow",
     "pages/dkx/dkx",
     "pages/main/imagecc/iamgecc",
     "pages/listview/listview",

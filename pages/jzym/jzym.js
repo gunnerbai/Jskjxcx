@@ -1,13 +1,13 @@
 // pages/jzym/jzym.js
-var i1 =1;
-var i2 = 1;
-var i3 = 1;
-var i4 = 1;
-var i5 = 1;
-var i6 = 1;
-var i7 = 1;
-var i8 = 1;
-var i9 = 1;
+var i1 =  1;
+var i2 =  1;
+var i3 =  1;
+var i4 =  1;
+var i5 =  1;
+var i6 =  1;
+var i7 =  1;
+var i8 =  1;
+var i9 =  1;
 var i10 = 1;
 var i11 = 1;
 var i12 = 1;

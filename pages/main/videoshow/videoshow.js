@@ -11,15 +11,15 @@ Page({
     sxxbfb: "",
     BXX1FBT: "",
     BXX2FBT: "",
-    image1: "",
-    image2: "",
-    image3: "",
+    image1: "../image/moback.jpg",
+    image2: "../image/moback.jpg",
+    image3: "../image/moback.jpg",
     data1:"",
     data2: "",
     data3: "",
-    sxxzw:'1',
-    BXX1BT:'2',
-    BXX2BT:'3',
+    sxxzw:'请稍后.',
+    BXX1BT:'请稍后..',
+    BXX2BT:'请稍后...',
     j:[],
     k:[],
     l:[]
@@ -32,6 +32,9 @@ Page({
    */
   onLoad: function (options) {
     var that =this;
+    wx.showLoading({
+      title: '正在加载，请稍后...',
+    })
     // console.log(options.data1);
     // console.log(options.data2);
     // console.log(options.data3);
@@ -51,10 +54,11 @@ Page({
       // data3: "PONY2",
    
     })
+  
     queryinfo(that, that.data.data1, this.data.j, this.data.sxxzw);
     queryinfo(that, that.data.data2, this.data.k, this.data.BXX1BT);
     queryinfo(that, that.data.data3, this.data.l, this.data.BXX2BT);
- 
+
 
 
 
@@ -71,7 +75,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-  
+   
   },
 
   /**
@@ -139,9 +143,9 @@ Page({
  
   },
   simplebtnback:function(){
-
+    console.log("111");
     wx.navigateTo({
-      url: '/pages/logs/logs'
+      url: '/pages/jzym/jzym'
     })
 
 
@@ -151,7 +155,7 @@ Page({
 function queryinfo(that ,str ,j,bt){
   console.log(str);
   console.log("1");
-
+ 
   // 拼接请求url
   const url = 'https://aaa.viidrive.com/XCXWebPro/ShowDataServlet';
   // 请求数据
@@ -171,7 +175,8 @@ function queryinfo(that ,str ,j,bt){
       console.log("res.data.list.bt:" + res.data.list[0].bt);
       // j: res.data.list;
       // bt: res.data.list[0].bt;
-      if (bt=='1'){
+    
+      if (bt =='请稍后.'){
         console.log("bt1");  
         that.setData({
           j: res.data.list[0],
@@ -181,7 +186,7 @@ function queryinfo(that ,str ,j,bt){
           image1: res.data.list[0].imagepath
 
         })
-      } else if (bt == '2') {
+      } else if (bt == '请稍后..') {
         console.log("bt2");
         that.setData({
           k: res.data.list[0],
@@ -193,12 +198,12 @@ function queryinfo(that ,str ,j,bt){
 
         })
 
-      } else if (bt == '3') {
+      } else if (bt == '请稍后...') {
         console.log("bt3");
         that.setData({
           l: res.data.list[0],
-          BXX2BT: res.data.list[0].bt
-          ,
+          BXX2BT: res.data.list[0].bt,
+          
           BXX2FBT: res.data.list[0].wb,
           image3: res.data.list[0].imagepath
 
@@ -206,7 +211,7 @@ function queryinfo(that ,str ,j,bt){
 
       }
 
-
+      wx.hideLoading();
       
 
     }

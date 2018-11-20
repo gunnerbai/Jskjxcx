@@ -6,7 +6,6 @@ let app = getApp();
 let mytoast;
 var bl = true;
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -27,7 +26,6 @@ Page({
     bhcccccc:false,
     modalHidden11111:true    
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -35,17 +33,12 @@ Page({
     // new app.WeToast();
     mytoast= new app.WeToast();
     // var that = this;
-    this.ctx = wx.createCameraContext()//创建摄像头对象
-
-
-  
+    this.ctx = wx.createCameraContext()//创建摄像头对象 
     // wx.showToast({
     //   title: '成功',
     //   image: '../image/pszy.jpg',
     //   duration: 2000
     // })
-
-
   },
 
   /**
@@ -85,6 +78,7 @@ Page({
     //   icon:'../image/psy2.png'
     // })
     // this.count=0
+    bl =true;
     imagepath = new Array();
    
   },
@@ -139,9 +133,6 @@ Page({
           modalHidden11111: false    
 
         })
-
-
-
   },
 
   /**
@@ -173,7 +164,7 @@ Page({
     if(count<4){
 
       that.ctx.takePhoto({
-        quality: 'low',
+        quality: 'normal',
 
         success: (res) => {
           // console.log(res.tempImagePath);
@@ -283,31 +274,17 @@ Page({
       that.setData({ 
         bhaaaaaa: true,
         onoffimage: '../image/off.png',
-       
+    
         bbbbbbb: false
-       })
-      
-      
+       })     
        } 
-    
-    
-    
     else { 
-      
-      
       that.data.i = 1,
        that.setData({ 
         bhaaaaaa: false, 
-      
         onoffimage: '../image/on.png',
-        bbbbbbb: true,
-      
-      })
-      
-      
-      
+        bbbbbbb: true,     
+      })     
        } 
-
   }
-
 })

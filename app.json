@@ -2,9 +2,9 @@
 {
   "pages": [
     "pages/m/m",
+    "pages/main/videoshow/videoshow",
     "pages/logs/logs",
     "pages/index/index",
-    "pages/main/videoshow/videoshow",
     "pages/main/load/load",
     "pages/main/recharge/text",
     "pages/tologin/tologin",

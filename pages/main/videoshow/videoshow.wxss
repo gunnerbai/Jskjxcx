@@ -16,6 +16,10 @@ view ,text{
   padding: 0;
 
 }
+.SXX{
+width: 100%;
+
+}
 .title{
   position: absolute;
   top: 0;

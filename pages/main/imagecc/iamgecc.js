@@ -210,7 +210,7 @@ Page({
       name: 'file',
       success: (res) => {
         console.log(res.data)
-        console.log(JSON.parse(res.data).result[0].brief)
+        // console.log(JSON.parse(res.data).result[0].brief)
         var dadabf1 =toPercent(JSON.parse(res.data).result[0].score);
         var dadabf2 = toPercent(JSON.parse(res.data).result[1].score);
         var dadabf3 =toPercent(JSON.parse(res.data).result[2].score);

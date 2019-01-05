@@ -1,12 +1,16 @@
 
 <view  class='iamgecc-view' >   
-  <image class='img1' src='{{image1}}'  catchtap='btn1'></image>
-  <image class='img2'  src='{{image2}}' catchtap='btn2'></image>
+  <image class='img1' src='{{image1}}' wx:if="{{image1.length>0}}"  catchtap='btn1'></image>
+  <!-- <image class='img2'  src='{{image2}}' catchtap='btn2'></image>
   <image class='img3'  src='{{image3}}' catchtap='btn3'></image>
-  <image class='img4'  src='{{image4}}' catchtap='btn4'></image>
-   <image class='imageccbutton1'  src='../image/qrsc.png' catchtap='imageccbutton1'></image>
-  <!-- <image class='imageccbutton2'  src='../image/qbcp.png' catchtap='imageccbutton2'></image> -->
+  <image class='img4'  src='{{image4}}' catchtap='btn4'></image> -->
+  <view hidden='{{yc}}'  class='wgtext'>正在进行五官扫描</view>
+   <image hidden='{{!yc}}' class='imageccbutton1'  src='../image/qrsc.png' catchtap='imageccbutton1'></image>
+  <image hidden='{{!yc}}' class='imageccbutton2'  src='../image/cxps.png' catchtap='imageccbutton2'></image>
+  <image hidden='{{yc}}' class='gif' src='/pages/img/timg.gif'></image>
+   <image hidden='{{yc}}' class='back' src='/pages/img/back.png'></image>
+
   <view class='imageccbutton'>
-  <text class='imagecc-button-btn'>单击图片可对该照片进行单张重拍</text>
+  <!-- <text class='imagecc-button-btn'>单击图片可对该照片进行单张重拍</text> -->
   </view>
 </view>

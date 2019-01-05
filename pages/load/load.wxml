@@ -1,0 +1,11 @@
+<!--pages/load/load.wxml-->
+<!-- <text>pages/load/load.wxml</text> -->
+<view class='pages'>
+
+<image class='load' src='../img/load.gif'  ></image>
+
+<image class='fascimage' src='../img/fascimage.png'></image>
+
+<image class='fasctext' src='../img/fasctext.png'></image>
+
+</view>

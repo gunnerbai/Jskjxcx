@@ -7,10 +7,10 @@ Page({
   data: {
     sxxbfb:"",
     bxx1bfb:"",
-    sxxfbt: "",
+    sxxfbt: "请稍后",
     sxxbfb: "",
-    BXX1FBT: "",
-    BXX2FBT: "",
+    BXX1FBT: "请稍后",
+    BXX2FBT: "请稍后",
     image1: "../image/moback.jpg",
     image2: "../image/moback.jpg",
     image3: "../image/moback.jpg",
@@ -144,10 +144,25 @@ Page({
   },
   simplebtnback:function(){
     console.log("111");
-    wx.navigateTo({
-      url: '/pages/jzym/jzym'
+    // wx.navigateTo({
+    //   url: '/pages/listview/listview'
+    // })
+    wx.reLaunch({
+      url: '/pages/index/index',
     })
 
+  },
+  vipbtn:function(){
+    wx.showLoading({
+      title: '敬请期待...',
+    })
+
+
+    setTimeout(function () {
+
+      wx.hideLoading();
+
+    }, 1000)
 
   }
   

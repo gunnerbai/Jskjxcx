@@ -65,7 +65,7 @@ border-radius: 20px;
 
 }
 .simple-btn-back{
-  margin-bottom:100rpx;
+  margin-bottom:200rpx;
   border: 1px solid black;
   width: 80%;
   background: white;

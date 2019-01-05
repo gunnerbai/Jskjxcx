@@ -92,79 +92,91 @@ Page({
   ,
   btn1:function(){
       var that = this;
-    var bgColor = this.data.aaa == '' ? '#b81c25' : '';
+    var bgColor = this.data.aaa == '' ? '#eec33d' : '';
     that.setData({
       aaa: bgColor
 
 
     })
-   
+    wx.reLaunch({
+      url: '../index/index',
+    })
 
   }
   ,
   btn2: function () {
     var that = this;
-    var bgColor = this.data.bbb == '' ? '#b81c25' : '';
+    var bgColor = this.data.bbb == '' ? '#eec33d' : '';
     that.setData({
       bbb: bgColor
 
 
     })
-
+    wx.reLaunch({
+      url: '../index/index',
+    })
 
   }
   ,
   btn3: function () {
     var that = this;
-    var bgColor = this.data.ccc == '' ? '#b81c25' : '';
+    var bgColor = this.data.ccc == '' ? '#eec33d' : '';
     that.setData({
       ccc: bgColor
 
 
     })
-
+    wx.reLaunch({
+      url: '../index/index',
+    })
 
   }
   ,
   btn4: function () {
     var that = this;
-    var bgColor = this.data.ddd == '' ? '#b81c25' : '';
+    var bgColor = this.data.ddd == '' ? '#eec33d' : '';
     that.setData({
       ddd: bgColor
 
 
     })
-
+    wx.reLaunch({
+      url: '../index/index',
+    })
 
   }
   ,
   btn5: function () {
     var that = this;
-    var bgColor = this.data.eee == '' ? '#b81c25' : '';
+    var bgColor = this.data.eee == '' ? '#eec33d' : '';
     that.setData({
       eee: bgColor
 
 
     })
-
+    wx.reLaunch({
+      url: '../index/index',
+    })
 
   }
   ,
   btn6: function () {
     var that = this;
-    var bgColor = this.data.fff == '' ? '#b81c25' : '';
+    var bgColor = this.data.fff == '' ? '#eec33d' : '';
     that.setData({
       fff: bgColor
 
 
     })
 
-
+    wx.reLaunch({
+      url: '../index/index',
+    })
   }
   ,
   btn7: function () {
     var that = this;
-    var bgColor = this.data.ggg == '' ? '#b81c25' : '';
+    var bgColor = this.data.ggg == '' ? '#eec33d' : '';
     that.setData({
       ggg: bgColor
 
@@ -176,7 +188,7 @@ Page({
   ,
   btn8: function () {
     var that = this;
-    var bgColor = this.data.hhh == '' ? '#b81c25' : '';
+    var bgColor = this.data.hhh == '' ? '#eec33d' : '';
     that.setData({
       hhh: bgColor
 
@@ -188,7 +200,7 @@ Page({
   ,
   btn9: function () {
     var that = this;
-    var bgColor = this.data.iii == '' ? '#b81c25' : '';
+    var bgColor = this.data.iii == '' ? '#eec33d' : '';
     that.setData({
       iii: bgColor
 
@@ -200,7 +212,7 @@ Page({
   ,
   btn10: function () {
     var that = this;
-    var bgColor = this.data.jjj == '' ? '#b81c25' : '';
+    var bgColor = this.data.jjj == '' ? '#eec33d' : '';
     that.setData({
       jjj: bgColor
 
@@ -213,7 +225,7 @@ Page({
   ,
   btn11: function () {
     var that = this;
-    var bgColor = this.data.kkk == '' ? '#b81c25' : '';
+    var bgColor = this.data.kkk == '' ? '#eec33d' : '';
     that.setData({
       kkk: bgColor
 

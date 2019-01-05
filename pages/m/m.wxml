@@ -1,5 +1,14 @@
-<view>
+<view class='pages'>
 
-<image  class="zry-zy" src="../img/zry.jpg"></image>
+<!-- <image  class="zry-zy" src="../img/zry.jpg"></image> -->
+
+
+
+<image  class='sy1' src='../img/sy1.png'></image>
+ <image class='sy2' src='../img/sy2.png'></image>
+<image class='sy3' src='../img/sy3.png'></image>
+<image class='sy4' src='../img/sy4.png'></image> 
+
+
 
 </view>

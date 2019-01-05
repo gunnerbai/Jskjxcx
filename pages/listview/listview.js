@@ -171,11 +171,11 @@ Page({
     
   }
     ,
-  scitemkj:function(){
+  wdrw:function(){
 
 
       wx.navigateTo({
-        url: '/pages/yhj/yhj',
+        url: '/pages/wdrw/wdrw',
       })
 
 
@@ -184,11 +184,11 @@ Page({
 
     }
   ,
-  scitemgz: function () {
+  wdfa: function () {
 
 
     wx.navigateTo({
-      url: '/pages/wdgz/wdgz',
+      url: '/pages/wdfa/wdfa',
     })
 
 
@@ -197,11 +197,50 @@ Page({
 
   }
   ,
-  wdsz: function () {
+  wdsc: function () {
 
 
     wx.navigateTo({
       url: '/pages/wdsc/wdsc',
+    })
+
+
+
+
+
+  }
+  ,
+  wdxx: function () {
+
+
+    wx.navigateTo({
+      url: '/pages/wdxx/wdxx',
+    })
+
+
+
+
+
+  }
+  ,
+  wdsd: function () {
+
+
+    wx.navigateTo({
+      url: '/pages/wdsd/wdsd',
+    })
+
+
+
+
+
+  }
+  ,
+  wdkj: function () {
+
+
+    wx.navigateTo({
+      url: '/pages/yhj/yhj',
     })
 
 

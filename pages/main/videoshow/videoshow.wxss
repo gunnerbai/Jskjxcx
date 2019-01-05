@@ -17,51 +17,140 @@ view ,text{
 
 }
 .SXX{
+text-align: center;
 width: 100%;
+height: 600rpx;
 
 }
 .title{
-  position: absolute;
-  top: 0;
+
     /* background: rgb(230, 108, 108); */
-     background-color: rgba(243, 7, 7, 0.664);
+     /* background-color: rgba(243, 7, 7, 0.664); */
   background-repeat:no-repeat;
    background-size:100% 100%;
    -moz-background-size:100% 100%; 
-
+    font-size: 50rpx;
     width: 100%;
     /* margin-left: 10px; */
     height: 50px;
-    color: white;
+    color: black;
      align-items:center;/*垂直居中*/
      justify-content: center;/*水平居中*/
        display:flex;
-  flex-direction:column;
+       font-weight: bolder;
+        letter-spacing:5rpx;
+        margin-top: 80rpx;
+        margin-bottom: 40rpx;
+ 
+}
+.SXImage-view{
+ width: 95%;
+  height: 400rpx;
+ margin: 0 auto;
 }
 .SXImage{
-  width: 100%;
+  width: 95%;
   height: 400rpx;
+  /* border: 1px solid black; */
+  border-radius: 30rpx;
+ /* filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
+  /* border: 1px solid black; */
+  /* background: black; */
+  
+
   /* height: 100%; */
 }
+
+
+.SXImage1{
+
+ width: 95%;
+  height: 400rpx;
+  /* border: 1px solid black; */
+  border-radius: 30rpx;
+  position: relative;
+  left: 0;
+  top: 0;
+
+
+}
+.gray { 
+    width: 95%;
+  height: 400rpx;
+   border-radius: 30rpx;
+    -webkit-filter: grayscale(50%);
+    -moz-filter: grayscale(30%);
+    -ms-filter: grayscale(30%);
+    -o-filter: grayscale(30%);
+    
+    filter: grayscale(30%);
+	
+    filter: gray;
+}
+
+.BXX1-image ,.BXX1-image1{
+  height: 400rpx;
+  width: 100%;
+  /* filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; */
+  /* border: 1px solid black; */
+  
+  /* background: url('https://gunnerbai.mynatapp.cc/XCXWebPro/tp2.png');
+  background-repeat:no-repeat;
+   background-size:100% 100%;
+   -moz-background-size:100% 100%; */
+
+}
 .centertext{
-  margin-top: 50rpx;
-  margin-bottom: 50rpx;
+  margin-top: 80rpx;
+  margin-bottom: 80rpx;
   width: 100%;
     /* margin-left: 10px; */
   height: 20px;
-  color: rgb(161, 16, 16);
+  color: black;
+
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
   display:flex;
+  font-size: 50rpx;
+   font-weight: bolder;
+        letter-spacing:5rpx;
   flex-direction:column;
 
 }
 .dline{
   height: 1px;
   width: 90%;
-  background: black;
+  background: rgb(189, 184, 184);
   margin-top: 30px;
   
+
+}
+.bfnn0{
+     width: 80rpx;
+    height: 80rpx;
+    position: relative;
+    left: 0%;
+    top: 65%;
+
+}
+.bfnn{
+    width: 80rpx;
+    height: 80rpx;
+    position: relative;
+    left: 43%;
+    top: 65%;
+
+
+
+}
+.bfnn1{
+    width: 500rpx;
+    height: 500rpx;
+    position: relative;
+    left: 0%;
+    top: 5%;
+
+
 
 }
 .BXX1 ,.BXX2{
@@ -72,21 +161,25 @@ background-color: rgba(230, 224, 224, 0.1);
   background-repeat:no-repeat;
    background-size:100% 100%;
    -moz-background-size:100% 100%;
+   /* border: 1px solid black; */
 
-border: 1px solid rgb(156, 154, 154);
+
 
 }   
 .SXtext1{
-
+  
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
+  text-align: left;
 
 }
 .SXtext2 {
   color: rgb(163, 161, 161);
   font-size: 25rpx;
   display: inline-block;
+  float: left;
+  margin-top: 15rpx;
 }
 .BXtext12 ,.BXtext22{
 /* background: red; */
@@ -130,28 +223,24 @@ margin-left: 20rpx;
   /* font-size: 20px; */
   /* float: right; */
 }
+.vipfa{
+  margin-top: 100rpx;
+    width: 95%;
+    height: 350rpx;
 
-
+}
 
 .BXImage1{
   /* border: 1px solid black; */
   /* background-image:url('../image/tp2.png'); */
   width: 100%;
   height: 100%;
-
+ border-radius: 30rpx;
+ /* border: 1px solid black; */
   /* position: absolute; */
   /* z-index: 2; */
 }
-.BXX1-image ,.BXX1-image1{
-  height: 170px;
-  width: 100%;
-   background-color: rgba(0, 0, 0, 0.1);
-  /* background: url('https://gunnerbai.mynatapp.cc/XCXWebPro/tp2.png');
-  background-repeat:no-repeat;
-   background-size:100% 100%;
-   -moz-background-size:100% 100%; */
 
-}
 .BXX1-image-back{
    /* position: relative; */
   /* top: 150px; */
@@ -166,15 +255,16 @@ margin-left: 20rpx;
   /* position: relative; */
   /* top: 150px; */
   /* color: white; */
-  margin-top: 10rpx;
+  margin-top: 100rpx;
   margin-left: 20rpx;
    display: inline-block;
   font-size: 16px;
   font-weight: bold;
+  text-align: left;
 
 }
 .BXtext12{
-   font-size: 12px;
+   font-size: 14px;
 
 }
 .BXtext13{
@@ -188,7 +278,7 @@ font-size: 12px;
 }
 
 .BXtext22{
-   font-size: 12px;
+   font-size: 14px;
 
 }
 .BXtext23{
@@ -203,6 +293,8 @@ font-size: 12px;
 
 .suofang1{
   margin: 10px 20px; 
+  float: left;
+  margin-top: 100rpx;
 
 
 }
@@ -213,16 +305,40 @@ text{
 /* .shop_block{ width:50%; font-size:16px; margin-top:-18px; background:#ffff33; margin-left:auto; margin-right:auto; border:1px gray solid;} */
 .simple-btn-back{
 width: 45%;
-height: 80rpx;
+height: 60rpx;
 /* margin: 0 auto; */
 /* margin-left: 10%; */
 background-color: white;
 border: 1px solid black;
 border-radius: 20px;
- font-size: 50rpx;
+ font-size: 40rpx;
+  margin:  80rpx auto;
+   display:flex;
+  align-items:center;/*垂直居中*/
+  flex-direction:column;
+   justify-content: center;/*水平居中*/
+       font-weight: bolder;
+        letter-spacing:5rpx;
+
+ 
+}
+
+
+.simple-btn-sy{
+  width: 45%;
+height: 60rpx;
+/* margin: 0 auto; */
+/* margin-left: 10%; */
+background-color: white;
+border: 1px solid black;
+border-radius: 20px;
+ font-size: 40rpx;
   margin:  30rpx auto;
    display:flex;
   align-items:center;/*垂直居中*/
   flex-direction:column;
    justify-content: center;/*水平居中*/
+       font-weight: bolder;
+        letter-spacing:5rpx;
+        margin-bottom: 80rpx;
 }

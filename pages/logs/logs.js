@@ -51,6 +51,7 @@ Page({
   onUnload: function () {
     clearInterval(this.data.daojishi);
     clearTimeout(this.data.daojishi);
+  
   },
 
   /**

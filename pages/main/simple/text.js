@@ -107,10 +107,15 @@ Page({
   }
   ,
   simplebtnmore: function () {
-   wx.showToast({
-     title: '敬请期待后续内容...',
-     icon:'none'
-   })
+  //  wx.showToast({
+  //    title: '敬请期待后续内容...',
+  //    icon:'none'
+  //  })
+    wx.reLaunch({
+      url: '/pages/dkx/dkx',
+    })
+
+
   },
   haveSave(e) {
     if (!this.data.isClick == true) {

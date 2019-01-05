@@ -12,7 +12,7 @@ Page({
   data: {
     // src111:"../image/psy1.png",
     src222: "../image/lxtx1.png",
-    src333: "../image/pzzl.jpg",
+    // src333: "../image/pzzl.jpg",
     modalHidden: false,
     hiddenaaa:false,
     displayaaa: "block",
@@ -148,9 +148,9 @@ Page({
 
    
     // var images = ["../image/psy2.png", "../image/psy3.png", "../image/psy4.png"];
-    var images1 = ["../image/lxtx3.png", "../image/lxtx2.png", "../image/lxtx4.png"];
-    var images2 = ["请平视镜头对准左侧脸进行拍摄", "请平视镜头对准右侧脸进行拍摄", "要从额头上方45°往下拍哦"];
-    var images3 = ["../image/pzzc.jpg", "../image/pzyl.jpg", "../image/pzsf.jpg"];
+    // var images1 = ["../image/lxtx3.png", "../image/lxtx2.png", "../image/lxtx4.png"];
+    // var images2 = ["请平视镜头对准左侧脸进行拍摄", "请平视镜头对准右侧脸进行拍摄", "要从额头上方45°往下拍哦"];
+    // var images3 = ["../image/pzzc.jpg", "../image/pzyl.jpg", "../image/pzsf.jpg"];
     // this.wetoast.toast({
     //   title: 'WeToast'
     //   // img: 'http://gunnerbai.mynatapp.cc/XCXWebPro/ymsm.png',
@@ -161,7 +161,7 @@ Page({
     wx.showLoading({
       title: '正在保存请稍后',
     })
-    if(count<4){
+ 
 
       that.ctx.takePhoto({
         quality: 'normal',
@@ -202,48 +202,14 @@ Page({
         }
       })
 
-    }
-
-    if (count < 2) {
-    
+  
 
 
-      that.setData({
-        // src: res.tempImagePath
-        modalHidden: false,
-        modalHidden11111: true, 
-        // src111: images[count],
-        src222: images1[count],
-        src333: images3[count],
-        btnwa: images2[count]
-      })
-      // console.log(src)
-      count++;
-      wx.hideLoading();
-    } else if (count ==2){
-
-
-      that.setData({
-        // src: res.tempImagePath
-
-        // src111: images[count],
-        modalHidden: false,
-        modalHidden11111: true, 
-        src222: images1[count],
-        btnwa: images2[count],
-        src333: images3[count],
-        bhbbbbbbbb: false
-      })
-      // console.log(src)
-      count++;
-      wx.hideLoading();
-
-
-    } else if (count == 3 && bl == true  ) {
-      bl =false;
-      wx.showLoading({
-        title: '跳转中....请稍后',
-      })
+    // } else if (count == 3 && bl == true  ) {
+    //   bl =false;
+    //   wx.showLoading({
+    //     title: '跳转中....请稍后',
+    //   })
 
       setTimeout(function () {
         //要延时执行的代码
@@ -259,8 +225,7 @@ Page({
    
       // console.log(imagepath)
 
-    }
-
+ 
 
   },
   onoff:function(){

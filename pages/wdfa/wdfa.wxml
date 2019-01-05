@@ -1,0 +1,11 @@
+<!--pages/wdfa/wdfa.wxml-->
+<!-- <text>pages/wdfa/wdfa.wxml</text> -->
+<view  class='pages'>
+
+      <image  class='image1' src="../img/wdfaimage.png"></image>
+      <image   class='image2' src="../img/wdfatext.png"></image>
+
+
+
+
+</view>

@@ -49,4 +49,11 @@ App({
   AppData: {
     userInfo: null
   }
+  , globalData:{
+
+      userInfo:null,
+      
+      Server:"http://localhost:8080/XCXWebPro/",
+       NewJSServlet:"NewJSServlet"
+  }
 })

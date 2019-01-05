@@ -1,11 +1,12 @@
 <import src="../main/src/wetoast.wxml"/>
 <view class='page'>
-  <!-- <image class='ym2-bjq' src='../img/psback.png'></image> -->
- 
   <image class='ym2-xj' src='../img/xj.png'></image>
-      <!-- <view class='ym2-view' catchtap='ym2view'> -->
+     
+ <image class='ym2-pz3'  src='../img/pz3.png'></image>
+ <image class='ym2-pz4'  src='../img/pz4.png'></image>
         <image  catchtap='ym2view' class='ym2-btn' src='../img/bt1.png'></image>
-        <!-- <text class='ym2-text'>开始AI拍照识别</text> -->
-      <!-- </view> -->
+ <image class='ym2-pz5'  catchtap='ym2bdtp' src='../img/pz5.png'></image>
 </view>
 <template is="wetoast" data="{{...__wetoast__}}"/>
+
+ 

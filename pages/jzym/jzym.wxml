@@ -1,9 +1,17 @@
 <!--pages/jzym/jzym.wxml-->
-<view class='pages'>
+<view class='pages' >
 
   <view class='center'>
   
 
+   <image  catchtap='btn'   class='im' src='../img/xx1.png'></image>
+    <image  catchtap='btn1'   style="background-color:{{aaa}}"class='im1' src='../img/xx2.png'></image>
+     <image  catchtap='btn2' style="background-color:{{bbb}}"class='im2' src='../img/xx3.png'></image>
+      <image  catchtap='btn3' style="background-color:{{ccc}}"class='im3' src='../img/xx4.png'></image>
+       <image  catchtap='btn4' style="background-color:{{ddd}}"class='im4' src='../img/xx5.png'></image>
+        <image  catchtap='btn5' style="background-color:{{eee}}" class='im5' src='../img/xx6.png'></image>
+        <image  catchtap='btn6'style="background-color:{{fff}}" class='im6' src='../img/xx7.png'></image>
+<!-- 
     <view catchtap='btn1' style="background-color:{{aaa}}"class='center-text1'>IT工程师</view>
     <view  catchtap='btn2'  style="background-color:{{bbb}}" class='center-text2'>金融财经男</view>
     <view catchtap='btn3'  style="background-color:{{ccc}}"  class='center-text3'>新闻/传媒/广告男</view>
@@ -15,11 +23,11 @@
     <view   catchtap='btn9' style="background-color:{{iii}}" class='center-text9'>律师/政法</view>
     <view catchtap='btn10' style="background-color:{{jjj}}"  class='center-text10'>摄影/电影</view>
     <view  catchtap='btn11' style="background-color:{{kkk}}" class='center-text11'>文艺/音乐</view>
-    <view   catchtap='btn12' style="background-color:{{lll}}" class='center-text12'>其他</view>
+    <view   catchtap='btn12' style="background-color:{{lll}}" class='center-text12'>其他</view> -->
 
 
   </view>
 
-
-      <image catchtap='qcbtn' class='qcbtn'  src='../img/qc.png'></image>
+      <view class='qcbtn' >选择场景，找到最适合你的妆容</view>
+      <!-- <image catchtap='qcbtn' class='qcbtn'  src='../img/qc.png'></image> -->
 </view>

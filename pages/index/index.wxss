@@ -57,7 +57,7 @@ view , scroll-view{
   flex-direction:column;
   align-items:center;/*垂直居中*/
   justify-content: center;/*水平居中*/
-  background:url('https://aaa.viidrive.com/XCXWebPro/img/psback.jpg')no-repeat fixed ;
+  /* background:url('https://aaa.viidrive.com/XCXWebPro/img/psback.jpg')no-repeat fixed ; */
   background-size: 100% ;
 }
 .ym2-bjq{
@@ -68,20 +68,20 @@ view , scroll-view{
 .ym2-xj{
     position:absolute;
     /* left: 7%; */
-    top: 10%; 
+    top: 3%; 
     /* margin-top: -330rpx; */
-    width: 270px;
-    height: 250px;
+    width: 95%;
+    height: 550rpx;
       /* border: 1px solid black; */
 }
 .ym2-btn{
-    height: 90px;
-    width: 250px;
+    height: 120rpx;
+    width: 60%;
      /* margin-bottom: 330rpx; */
     /* margin: 0 auto; */
     position:absolute;
     /* left: 12%; */
-    top: 55%; 
+    top: 860rpx; 
     /* border: 1px solid black; */
 }
 .ym2-text{
@@ -92,4 +92,27 @@ view , scroll-view{
     color: #c3c3c3;
 
 }
+.ym2-pz3{
 
+  width: 65%;
+  height: 80rpx;
+position: absolute;
+top: 630rpx;
+
+}
+.ym2-pz4{
+
+  width: 50%;
+  height:28rpx;
+position: absolute;
+top: 770rpx;
+
+}
+.ym2-pz5{
+
+  width: 55%;
+  height:50rpx;
+position: absolute;
+bottom: 40rpx;
+
+}

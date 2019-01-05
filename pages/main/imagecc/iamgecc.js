@@ -1,5 +1,5 @@
 // pages/main/imagecc/iamgecc.js
-
+var app =getApp;
 var imagepath = new Array();
 Page({
 
@@ -8,9 +8,10 @@ Page({
    */
   data: {
     image1: "",
-    image2: "",
-    image3: "",
-    image4: "",
+    yc:true
+    // image2: "",
+    // image3: "",
+    // image4: "",
     
   },
 
@@ -26,10 +27,11 @@ Page({
       key: 'imagepath',
       success: function (res) {
         console.log("成功" + res.data);
-        that.setData({ image1 : res.data[0] ,
-          image2: res.data[1],
-          image3: res.data[2],
-          image4: res.data[3], 
+          that.setData({ 
+            image1 : res.data[0] ,
+          // image2: res.data[1],
+          // image3: res.data[2],
+          // image4: res.data[3], 
         
         
         
@@ -51,7 +53,7 @@ Page({
    */
   onShow: function () {
     var that = this;
-    console.log("进入onShow");
+    console.log("imagecc进入onShow");
     let pages = getCurrentPages();
     let currPage = pages[pages.length - 1];
 
@@ -160,69 +162,120 @@ Page({
 
   }
 
-    ,btn1: function () {
-    //创建摄像头对象
-    var that = this;
-      wx.setStorage({
+  //   ,btn1: function () {
+  //   //创建摄像头对象
+  //   var that = this;
+  //     wx.setStorage({
 
-        key: 'imagepath',
-        data: '../image/psy1.png',
-      })
-      wx.navigateTo({
-        url: '../imagecc2/iamgecc',
-      })
-    }
-  , btn3: function () {
-    //创建摄像头对象
-    var that = this;
-    wx.setStorage({
+  //       key: 'imagepath',
+  //       data: '../image/psy1.png',
+  //     })
+  //     wx.navigateTo({
+  //       url: '../imagecc2/iamgecc',
+  //     })
+  //   }
+  // , btn3: function () {
+  //   //创建摄像头对象
+  //   var that = this;
+  //   wx.setStorage({
 
-      key: 'imagepath',
-      data: '../image/psy3.png',
-    })
-    wx.navigateTo({
-      url: '../imagecc2/iamgecc',
-    })
-  }
-  , btn4: function () {
-    //创建摄像头对象
-    var that = this;
-    wx.setStorage({
+  //     key: 'imagepath',
+  //     data: '../image/psy3.png',
+  //   })
+  //   wx.navigateTo({
+  //     url: '../imagecc2/iamgecc',
+  //   })
+  // }
+  // , btn4: function () {
+  //   //创建摄像头对象
+  //   var that = this;
+  //   wx.setStorage({
 
-      key: 'imagepath',
-      data: '../image/psy4.png',
-    })
-    wx.navigateTo({
-      url: '../imagecc2/iamgecc',
-    })
-  }
+  //     key: 'imagepath',
+  //     data: '../image/psy4.png',
+  //   })
+  //   wx.navigateTo({
+  //     url: '../imagecc2/iamgecc',
+  //   })
+  // }
   , imageccbutton1:function(){
     var that = this;
+    that.setData({
+      yc:false
 
-      wx.showLoading({
-        title: '正在加载请稍后',
-      })
+    })
+    // setTimeout(function () {
+    //   // wx.hideLoading();
+    // wx.showLoading({
+    //     title: '生成中...',
+    //   })
 
 
+    // }, 3000)
+    
+      // wx.showLoading({
+      //   title: '正在加载请稍后',
+      // })
+
+    console.log(that.data.image1)
     wx.uploadFile({
       url: 'https://aaa.viidrive.com/XCXWebPro/JsonServlet',
-      filePath: that.data.image1,
+      // url:'http://localhost:8080/XCXWebPro/FaceServlet',
+      filePath: that.data.image1+"",
       name: 'file',
       success: (res) => {
         console.log(res.data)
+
+
+
+
+
+        if (res.data=="这不是一张人脸"){
+
+          wx.showToast({
+              title: '识别失败，请正臉拍照',
+              icon:'none'
+            })
+
+        setTimeout(function(){
+           
+      wx.reLaunch({
+        url: '/pages/index/index',
+      })
+            wx.hideLoading();
+
+        },5000)
+
+        }else{
         // console.log(JSON.parse(res.data).result[0].brief)
         var dadabf1 =toPercent(JSON.parse(res.data).result[0].score);
         var dadabf2 = toPercent(JSON.parse(res.data).result[1].score);
         var dadabf3 =toPercent(JSON.parse(res.data).result[2].score);
         wx.setStorage({
           key: 'cargo',
-          data: JSON.parse(res.data).result[0].brief,
+          data: res.data,
         })
-        wx.reLaunch({
-          url: '../videoshow/videoshow?data1=' + JSON.parse(res.data).result[0].brief + '&data2=' + JSON.parse(res.data).result[1].brief + '&data3=' + JSON.parse(res.data).result[2].brief + '&dadabf1=' + dadabf1 + '&dadabf2=' + dadabf2 +'&dadabf3='+dadabf3,
-        })
-        
+        // wx.reLaunch({
+        //   url: '../videoshow/videoshow?data1=' + JSON.parse(res.data).result[0].brief + '&data2=' + JSON.parse(res.data).result[1].brief + '&data3=' + JSON.parse(res.data).result[2].brief + '&dadabf1=' + dadabf1 + '&dadabf2=' + dadabf2 +'&dadabf3='+dadabf3,
+        // })
+
+        setTimeout(function () {
+
+          wx.reLaunch({
+
+             url: '../videoshow/videoshow?data1=' + JSON.parse(res.data).result[0].brief + '&data2=' + JSON.parse(res.data).result[1].brief + '&data3=' + JSON.parse(res.data).result[2].brief + '&dadabf1=' + dadabf1 + '&dadabf2=' + dadabf2 +'&dadabf3='+dadabf3,
+
+          })
+          // wx.hideLoading();
+        },3000)
+
+       
         wx.hideLoading();
+        }
+      },
+      fail: function (res) {
+        console.log("addfood fail", res);
+
       },
 
     })

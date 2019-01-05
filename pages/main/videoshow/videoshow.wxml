@@ -3,16 +3,24 @@
 
 <view   class='page'>
       
-      
+      <view  class='title'>
+       <text >以下是适合您的五官方案</text>
+       </view>
 
       <!-- 首选项 -->
       <view  class='SXX'   bindtap='SXX'>
-      <view  class='title'>
-       <text >以下是最适合您的方案</text>
-       </view>
-        <image  class='SXImage' src='{{image1}}'></image>
+ <!-- <view class='bfnn1' src='/pages/img/imabck.png'></view> -->
+      
+      <view class='SXImage-view'>
+       <image class='bfnn0' src='/pages/img/bfan.png'></image>
+       
+        <image class='SXImage' src='{{image1}}'></image>
+       
+        </view>
         <view class='suofang1'>
+        <view>
         <text class='SXtext1'>{{sxxzw}}</text>
+        </view>
         <text class='SXtext2'>{{sxxfbt}}</text>
         <view class='SXtext3-view'>
           <!-- <text class='SXtext3'>{{sxxbfb}}</text> -->
@@ -21,18 +29,23 @@
         </view>
         </view>
       </view>
-         <button class='simple-btn-back'  bindtap='simplebtnback'>返回重测</button>
-      <!-- 分割线 -->
-      <view class='dline'></view>
+
+      <image  catchtap='vipbtn' class='vipfa' src='/pages/img/vip.jpg'></image>
+
+
+
+       
+  
       <!-- 两个备选备选  -->
         <!-- 文案備選方案 -->
-       
-         <view  class='centertext-view'>
-       <text  class='centertext'>以下方案可能也适合你</text>
+       <view  class='centertext-view'>
+       <text  class='centertext'>以下是你的备选妆容方案</text>
        </view>
    <view class='BXX1'  bindtap='BXX1'>
         <view class='BXX1-image'>
+     <image class='bfnn' src='/pages/img/bfan.png'></image>
          <image   class='BXImage1'  src='{{image2}}'></image>
+      
        
         </view>
         <view>
@@ -47,6 +60,7 @@
       </view>
    <view class='BXX2'  bindtap='BXX2'>
      <view class='BXX1-image1'>
+      <image class='bfnn' src='/pages/img/bfan.png'></image>
      <image   class='BXImage1'  src='{{image3}}'></image>
    
         </view>
@@ -60,9 +74,11 @@
         <!-- <text class='BXtext24'>查看详情</text> -->
         </view>
       </view>
-       
+           <!-- 分割线 -->
+      <view class='dline'></view>
 
-
+  <button class='simple-btn-back'  bindtap='simplebtnback'>返回重测</button>
+   <!-- <button class='simple-btn-sy'  bindtap='simplebtnsy'>返回首页</button> -->
 </view>
 
 

@@ -1,11 +1,12 @@
 let app = getApp();
+var imagepath = new Array();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+ 
   },
 
   /**
@@ -36,22 +37,48 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
-  },
+    console.log("index的onShow") 
+  }, 
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    
+    console.log("onHide")
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
+    console.log("onUnload")
+    var that = this;
     clearInterval(this.data.daojishi);
     clearTimeout(this.data.daojishi);
+  
+
+      console.log(imagepath)
+      
+      wx.setStorage({
+
+        key: 'imagepath',
+        data: imagepath,
+      })
+      
+      // that.setData({
+        
+      //   imagepath:""
+
+      // })
+      imagepath =new Array()
+   
+    // wx.showToast({
+    //   title: '这是弹窗',
+    //   icon:'../image/psy2.png'
+    // })
+    // this.count=0
+   
+  
   },
 
   /**
@@ -90,9 +117,51 @@ Page({
     // })
     console.log("点击了button");
     wx.reLaunch({
-      url: '../main/load/load'
+      // url: '../main/load/load'
+      url: '/pages/main/recharge/text'
       
     })
+  }
+  , ym2bdtp:function(){
+      var that = this;
+      wx.chooseImage({
+        count: 4, // 最多可以选择的图片张数，默认9
+        sizeType: ['original', 'compressed'], // original 原图，compressed 压缩图，默认二者都有
+        sourceType: ['album'], // album 从相册选图，camera 使用相机，默认二者都有
+        success: function(res) {
+          console.log("success")
+          var a = res.tempFilePaths
+          console.log(a)
+          imagepath.push(a)
+          // that.setData({
+
+          //   imagepath :a
+
+          // })
+          console.log(imagepath)
+          wx.showLoading({
+            title: '正在加载请稍后',
+          })
+          setTimeout(function () {
+
+            wx.reLaunch({
+
+              url: '/pages/main/imagecc/iamgecc'
+
+            })
+          wx.hideLoading();
+          }, 2000)
+        },
+        fail: function () {
+          // fail
+       
+          console.log("fail")
+        },
+      })    
+
+
+
+
   }
 })
 

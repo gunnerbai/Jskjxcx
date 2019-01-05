@@ -13,8 +13,8 @@
 </view> -->
  
     <camera     class='camera'  device-position='front' flash='off' binderror='handleBindCameraFail'>
-   <cover-image   hidden="{{modalHidden}}"     catchtap='pzts'   class='verifycode-pzts'  src="{{src333}}"></cover-image>
-    <cover-image hidden="{{modalHidden11111}}" class='verifycode-cover'  src="{{src111}}" ></cover-image>
+   <!-- <cover-image      catchtap='pzts'   class='verifycode-pzts'  src="{{src333}}"></cover-image> -->
+    <!-- <cover-image hidden="{{modalHidden11111}}" class='verifycode-cover'  src="{{src111}}" ></cover-image> -->
      <!-- <cover-image  catchtap='onoff'  class='verifycode-ooo'  src="{{onoffimage}}" ></cover-image> -->
     <cover-image   class='verifycode-tishi'  src="{{src222}}" ></cover-image>
     <cover-view  class='cover-view'>
@@ -28,15 +28,15 @@
       <cover-view class='sub_tips'>倒计时10秒</cover-view> -->
     </cover-view>
      
-     <cover-view   hidden="{{modalHidden11111}}"  class='bottm-wi'  > </cover-view>
-     <cover-image  hidden="{{modalHidden11111}}"  class='btn1'  disabled='false'  catchtap='buton1' src="../image/psan.png">拍照</cover-image>
+     <!-- <cover-view   hidden="{{modalHidden11111}}"  class='bottm-wi'  > </cover-view> -->
+     <cover-image   class='btn1'  disabled='false'  catchtap='buton1' src="../image/psan.png">拍照</cover-image>
   
     
           <!-- <cover-image  hidden='{{bhbbbbbbbb}}'   class='pe'src="../image/pe.png">拍照</cover-image> -->
 
-      <cover-view   hidden="{{modalHidden11111}}"  class='button-text-view'>
+      <cover-view   class='button-text-view'>
        
-     <cover-view   class='button-text'>{{btnwa}}</cover-view>
+     <!-- <cover-view   class='button-text'>{{btnwa}}</cover-view> -->
      </cover-view>
     </camera>
     <!-- wetoast -->

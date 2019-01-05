@@ -12,7 +12,7 @@
     <image   class='simple-img'  src='{{image1}}'></image>
       <image   class='simple-img' src='{{image2}}'></image>
         <image   class='simple-img' src='{{image3}}'></image>
-      <button class='simple-btn-more'  catchtap='simplebtnmore'>查看更多PONY的视频</button>
+      <button class='simple-btn-more'  catchtap='simplebtnmore'>查看更多相关视频</button>
       <button class='simple-btn-back'  catchtap='simplebtnback'>返回首页</button>
       <!-- <view  class='Dline'></view> -->
     </view>

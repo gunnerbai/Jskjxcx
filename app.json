@@ -2,19 +2,24 @@
 {
   "pages": [
     "pages/m/m",
-    "pages/logs/logs",
     "pages/index/index",
-    "pages/main/load/load",
-    "pages/main/recharge/text",
-    "pages/tologin/tologin",
-    "pages/jzym/jzym",
     "pages/main/simple/text",
-    "pages/main/videoshow/videoshow",
-    "pages/dkx/dkx",
     "pages/main/imagecc/iamgecc",
+    "pages/main/recharge/text",
     "pages/listview/listview",
-    "pages/datashow/datashow",
+    "pages/main/videoshow/videoshow",
+    "pages/jzym/jzym",
+    "pages/load/load",
+    "pages/wdrw/wdrw",
+    "pages/wdsd/wdsd",
+    "pages/wdxx/wdxx",
+    "pages/wdfa/wdfa",
     "pages/wdsc/wdsc",
+    "pages/logs/logs",
+    
+    "pages/tologin/tologin",
+    "pages/dkx/dkx",
+    "pages/datashow/datashow",
     "pages/dkxx/dkxx",
     "pages/wdgz/wdgz",
     "pages/yhj/yhj",
@@ -27,8 +32,8 @@
   
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#b81c25",
-    "navigationBarTitleText": "AI斩男决",
+    "navigationBarBackgroundColor": "#e72a53",
+    "navigationBarTitleText": "AI美妆",
     "navigationBarTextStyle": "#ffffff"
   }
   ,
@@ -64,7 +69,6 @@
   }
   
 }
-
 
 
 

@@ -1,43 +1,9 @@
-<!--pages/wdgz/wdgz.wxml-->
+<!--pages/wdsc/wdsc.wxml-->
+<!-- <text>pages/wdsc/wdsc.wxml</text> -->
 <view  class='pages'>
-  
-  <view class='title'>
-          <image  class='title-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/bsnanner.jpg'></image>
-          <!-- <image class='title-text' src='https://aaa.viidrive.com/XCXWebPro/wdgz/wdgz.png'></image> -->
-      </view>
 
-    <view  class='center'>
-    <view class='center-item'>
-        <view class='center-item-text1'>超级日常的十分钟出门妆，日常韩流妆</view>
-         <view class='center-item-text2'>有它不怕起床晚</view>
-         <image class='center-item-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/wdsc2.png'></image>
-    
-    </view>
-       <view class='center-item'>
-        <view class='center-item-text1'>放大双眼圣诞白毛二次元漫画少女妆</view>
-         <view class='center-item-text2'>优秀的动漫猫眼妆容</view>
-         <image class='center-item-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/wdsc2.png'></image>
-    
-    </view>
-       <view class='center-item'>
-        <view class='center-item-text1'>王者荣耀大乔cos仿妆美腻大乔COS妆</view>
-         <view class='center-item-text2'>让你那沉迷王者的男朋友拥有一个大乔</view>
-         <image class='center-item-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/wdsc2.png'></image>
-    
-    </view>
-       <view class='center-item'>
-        <view class='center-item-text1'>PONY女神亲自示范打造夏日活力持久妆</view>
-         <view class='center-item-text2'>一起来GET韩剧女主韩系夏日清透妆容！</view>
-         <image class='center-item-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/wdsc2.png'></image>
-    
-    </view>
-       <view class='center-item'>
-        <view class='center-item-text1'>夏日VC果味妆，绝对的显白不撞脸！</view>
-         <view class='center-item-text2'>不走“果汁”甜美风，走出“果味”明朗感！</view>
-         <image class='center-item-image' src='https://aaa.viidrive.com/XCXWebPro/wdsc/wdsc2.png'></image>
-    
-    </view>
-    </view>
+      <image  class='image1' src="../img/wdscimage.png"></image>
+      <image   class='image2' src="../img/wdsctext.png"></image>
 
 
 

@@ -6,29 +6,30 @@
       <view  class='title-username'>{{username}}</view>
       <!-- <button open-type='getUserInfo'></button> -->
       </view>
+
     </view>
       <view class='center'>
         <view class='center-qt'>
           <view class='center-text1'>
-              <text class='center-zb'>50</text>
+              <text class='center-zb'>0</text>
               <text class='center-zw' >账户余额</text>
           
           </view>
-           <view class='center-line'> </view>
+           <!-- <view class='center-line'> </view> -->
             <view class='center-text2'>
             
-             <text class='center-zb'>50</text>
+             <text class='center-zb'>0</text>
               <text class='center-zw' >积分</text>
             
              </view>
-             <view class='center-line'> </view>
+             <!-- <view class='center-line'> </view> -->
             <view class='center-text3'> 
                <text class='center-zb'>3</text>
               <text class='center-zw' >优惠券</text>
             </view>
             </view>
        </view>
-        <view  class='item'>
+        <!-- <view  class='item'>
               <view  class='item1'  catchtap='wdsz'>
                   <image  class='item1-image' src='../img/scj.png'></image>
                   <view   class='item1-text'><text>我的收藏</text></view>
@@ -75,5 +76,61 @@
                   <view   class='item1-text'><text>联系我们</text></view>
                   <image   class='item1-image1'  src='../img/tz.png'></image>
               </view>
-        </view>
+        </view> -->
+    <view  class='g_line'></view>
+
+    <view  class='bottom_view'>
+          <view  class='bottom_view_fri'>
+                <view catchtap='wdsc' class='bottom_view_fri_wdsc'>
+                   <image class='item_image'  src='../img/wdsc.png'></image>
+                     <view  class='item_text'>我的收藏</view>
+                </view>
+                  <view  catchtap='wdfa' class='bottom_view_fri_wdfa'>
+                          <image class='item_image'  src='../img/fa.png'></image>
+                     <view  class='item_text'>我的方案</view>
+                </view>
+                  <view   class='bottom_view_fri_gkls'>
+                          <image class='item_image'  src='../img/ls.png'></image>
+                     <view  class='item_text'>观看历史</view>
+                </view>
+          </view>
+
+          <view  class='bottom_view_sec'>
+                <view class='bottom_view_sec_rw' catchtap='wdrw' >
+                             <image class='item_image'  src='../img/rw.png'></image>
+                     <view   class='item_text'>我的任务</view>
+
+                </view>
+                  <view class='bottom_view_sec_jfsc' catchtap='wdsd'>
+                          <image class='item_image'  src='../img/grsc.png'></image>
+                     <view   class='item_text'>积分商城</view>
+                </view>
+                  <view class='bottom_view_sec_dzkj'  catchtap='wdkj'>
+                          <image class='item_image'  src='../img/kj.png'></image>
+                     <view  class='item_text'>我的卡卷</view>
+                </view>
+          </view>
+
+
+          <view  class='bottom_view_thd'>
+                <view class='bottom_view_thd_xxzx' catchtap='wdxx'>
+                        <image class='item_image'  src='../img/grxx.png'></image>
+                     <view   catchtap='wdxx' class='item_text'>消息中心</view>
+                </view>
+                  <view class='bottom_view_thd_jyfk'>
+                          <image class='item_image'  src='../img/fk.png'></image>
+                     <view  class='item_text'>建议反馈</view>
+                </view>
+                  <view class='bottom_view_thd_gywm'>
+                          <image class='item_image'  src='../img/wm.png'></image>
+                     <view  class='item_text'>关于我们</view>
+                </view>
+          </view>
+
+    
+    </view  >
+
+
+
+
 </view>

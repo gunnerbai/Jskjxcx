@@ -1,0 +1,11 @@
+<!--pages/wdsd/wdsd.wxml-->
+<!-- <text>pages/wdsd/wdsd.wxml</text> -->
+<view  class='pages'>
+
+      <image  class='image1' src="../img/wdsdimage.png"></image>
+      <image   class='image2' src="../img/wdsdtext.png"></image>
+
+
+
+
+</view>

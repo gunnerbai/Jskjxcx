@@ -81,7 +81,7 @@ view , scroll-view{
     /* margin: 0 auto; */
     position:absolute;
     /* left: 12%; */
-    top: 860rpx; 
+    top: 820rpx; 
     /* border: 1px solid black; */
 }
 .ym2-text{
@@ -105,7 +105,7 @@ top: 630rpx;
   width: 50%;
   height:28rpx;
 position: absolute;
-top: 770rpx;
+top: 750rpx;
 
 }
 .ym2-pz5{
@@ -113,6 +113,6 @@ top: 770rpx;
   width: 55%;
   height:50rpx;
 position: absolute;
-bottom: 40rpx;
+top: 990rpx;
 
 }

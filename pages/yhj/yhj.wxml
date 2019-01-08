@@ -1,13 +1,13 @@
 <!--pages/yhj/yhj.wxml-->
 <view  class='pages'>
       <view class='title'>
-          <image  class='title-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/banner.jpg'></image>
+          <image  class='title-image' src='https://aaa.viidrive.com/qt/banner.jpg'></image>
       </view>
           <view class='center'>
-          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/hyk.png'>    </image>
-          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/jck.png'>    </image>
-          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/yhk.png'>    </image>
-          <image  class='center-image' src='https://aaa.viidrive.com/XCXWebPro/yhj/gqyhj.png'>  </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/qt/hyk.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/qt/jck.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/qt/yhk.png'>    </image>
+          <image  class='center-image' src='https://aaa.viidrive.com/qt/gqyhj.png'>  </image>
           </view>
         <view>
         

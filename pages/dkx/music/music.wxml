@@ -3,7 +3,7 @@
 
     <view class='table'>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx1.png'  catchtap='btn1'  ></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/qt/dkx1.png'  catchtap='btn1'  ></image>
         <text class='table-view1-text'> 韩国顶级彩妆化妆师，擅长各种网红仿妆
 
 
@@ -16,7 +16,7 @@
 
 
     <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx2.png'  catchtap='btn2'></image>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/qt/dkx2.png'  catchtap='btn2'></image>
         <text class='table-view2-text'> 二次元美妆博主，擅长各种日漫风妆容
 
 </text>
@@ -31,7 +31,7 @@
 
  <view class='table'>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx3.png'  catchtap='btn3'></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/qt/dkx3.png'  catchtap='btn3'></image>
         <text class='table-view1-text'>   韩国美妆大咖，妆容风格多变，技法简洁明了
 
 </text>
@@ -41,7 +41,7 @@
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx4.png'  catchtap='btn4'></image>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/qt/dkx4.png'  catchtap='btn4'></image>
         <text class='table-view2-text'> 韩国网红化妆师，清新韩妆代表，妆容偏少女风
 
 </text>
@@ -59,7 +59,7 @@
 
  <view class='table'>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx5.png'  catchtap='btn5'></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/qt/dkx5.png'  catchtap='btn5'></image>
         <text class='table-view1-text'> 日系长相的美妆红人，妆容风格多样
 
 </text>
@@ -69,7 +69,7 @@
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx6.png'  catchtap='btn6'></image>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/qt/dkx6.png'  catchtap='btn6'></image>
         <text class='table-view2-text'> 泰国美妆红人，长相立体，擅长韩妆与欧美妆
 
 </text>
@@ -86,7 +86,7 @@
     </view>
      <view class='table'>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx7.png'  catchtap='btn7'></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/qt/dkx7.png'  catchtap='btn7'></image>
         <text class='table-view1-text'> 国外留学美妆红人，技法以浓妆为主，擅长各样眼妆
 
 </text>
@@ -96,7 +96,7 @@
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx8.png'  catchtap='btn8'></image>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/qt/dkx8.png'  catchtap='btn8'></image>
         <text class='table-view2-text'> 国内美妆UP主，妆容简单清新，适用日常上班和上学
 
 </text>
@@ -113,7 +113,7 @@
     </view>
      <view class='table'>
       <view class='table-view1'>
-        <image  class='table-view1-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx9.png'  catchtap='btn9'></image>
+        <image  class='table-view1-image' src='https://aaa.viidrive.com/qt/dkx9.png'  catchtap='btn9'></image>
         <text class='table-view1-text'> 旅游美妆红人，风格较为成熟，适合御姐控
 
 </text>
@@ -123,7 +123,7 @@
       
       </view>
            <view  class='table-view2'>
-        <image  class='table-view2-image' src='https://aaa.viidrive.com/XCXWebPro/MZdkx/dkx10.png'   catchtap='btn10'></image>
+        <image  class='table-view2-image' src='https://aaa.viidrive.com/qt/dkx10.png'   catchtap='btn10'></image>
         <text class='table-view2-text'> "韩国时尚美妆博主，擅长简洁韩妆，适合小白上手
 </text>
 

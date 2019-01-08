@@ -1,11 +1,13 @@
 // pages/dkxx/dkxx.js
+const app =getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imagesrc: 'https://aaa.viidrive.com/XCXWebPro/wsz.png',
+    imagesrc: app.globalData.Server+'XCXWebPro/wsz.png',
     dkimage:"",
     dkname:"",
     dkjj:""
@@ -26,7 +28,7 @@ Page({
     })
 
     // 拼接请求url
-    const url = 'https://aaa.viidrive.com/XCXWebPro/ShowDataServlet';
+    const url = app.globalData.Server +'XCXWebPro/ShowDataServlet';
     // 请求数据
     wx.request({
       url: url,

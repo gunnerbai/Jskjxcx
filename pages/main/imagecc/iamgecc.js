@@ -8,19 +8,21 @@ Page({
    */
   data: {
     image1: "",
-    yc:true
+    yc:true ,
+    img_ratio:1
     // image2: "",
     // image3: "",
     // image4: "",
     
   },
+ 
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
-    console.log("新的imagecc");
+
+   console.log("新的imagecc");
     var that =this;
     this.ctx = wx.createCameraContext()//创建摄像头对象
     wx.getStorage({
@@ -127,6 +129,25 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+
+  },
+  // imgLoad: function (e) {
+  //   var width = e.detail.width,//图片宽度
+  //     height = e.detail.height,
+  //   this.setData({
+  //     img_ratio: width / height
+  //   })
+  // },
+
+  imLoad:function(e){
+    var width = e.detail.width;//图片宽度
+    var  height = e.detail.height;
+    console.log(width)
+    console.log(height)
+    console.log(width / height)
+       this.setData({
+      img_ratio: width / height
+    })
 
   },
   btn2 :function(){

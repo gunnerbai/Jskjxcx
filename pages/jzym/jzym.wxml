@@ -1,5 +1,5 @@
 <!--pages/jzym/jzym.wxml-->
-<view class='pages' >
+<view class='pages'  mode='scaleToFill' >
 
   <view class='center'>
   

@@ -1,20 +1,21 @@
 // pages/main/simple/text.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imagesrc: 'https://aaa.viidrive.com/XCXWebPro/wsz.png',
+    imagesrc: app.globalData.Server+'wsz.png',
     job: [],
     jobList: [],
     id: '',
     isClick: false,
     jobStorage: [],
     jobId: '',
-    image1:'https://aaa.viidrive.com/XCXWebPro/bjht.png',
-    image2: 'https://aaa.viidrive.com/XCXWebPro/bjht.png',
-    image3: 'https://aaa.viidrive.com/XCXWebPro/bjht.png',
+    image1: app.globalData.Server +'bjht.png',
+    image2: app.globalData.Server +'bjht.png',
+    image3: app.globalData.Server +'bjht.png',
     ZBT:'',
     FBT:'',
     SPZF:''
@@ -27,16 +28,14 @@ Page({
   onLoad: function (options) {
     var that = this;
     console.log(options.data1);
-    that.setData({ videurl: "https://aaa.viidrive.com/XCXWebPro/spsc/" + options.data1 + ".mp4",
+    that.setData({
+      videurl: app.globalData.Server +"spsc/" + options.data1 + ".mp4",
       ZBT: options.data2,
       FBT: options.data3,
     SPZF: options.data4,
-      image1: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "02.jpg",
-      image2: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "03.jpg",
-      image3: "https://aaa.viidrive.com/XCXWebPro/sptp/" + options.data1 + "04.jpg",
-    
-    
-    
+      image1: app.globalData.Server +"sptp/" + options.data1 + "02.jpg",
+      image2: app.globalData.Server +"sptp/" + options.data1 + "03.jpg",
+      image3: app.globalData.Server +"sptp/" + options.data1 + "04.jpg",
      })
   },
 
@@ -141,7 +140,7 @@ Page({
   itemgz: function () {
     var that = this;
     that.setData({
-      imagesrc: 'https://aaa.viidrive.com/XCXWebPro/ysz.png'
+      imagesrc: app.globalData.Server +'qt/ysz.png'
     })
     wx.showToast({
       title: '已收藏',

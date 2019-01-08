@@ -1,6 +1,7 @@
-
 <view  class='iamgecc-view' >   
-  <image class='img1' src='{{image1}}' wx:if="{{image1.length>0}}"  catchtap='btn1'></image>
+
+  <image class='img1' src='{{image1}}' wx:if="{{image1.length>0}}" mode="widthFix"  catchtap='btn1'></image>
+
   <!-- <image class='img2'  src='{{image2}}' catchtap='btn2'></image>
   <image class='img3'  src='{{image3}}' catchtap='btn3'></image>
   <image class='img4'  src='{{image4}}' catchtap='btn4'></image> -->

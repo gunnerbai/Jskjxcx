@@ -1,24 +1,22 @@
 
 {
   "pages": [
+    "pages/listview/listview",
+    "pages/dkx/dkx",
     "pages/m/m",
     "pages/index/index",
+    "pages/main/videoshow/videoshow",
+    "pages/jzym/jzym",
     "pages/main/simple/text",
     "pages/main/imagecc/iamgecc",
     "pages/main/recharge/text",
-    "pages/listview/listview",
-    "pages/main/videoshow/videoshow",
-    "pages/jzym/jzym",
     "pages/load/load",
     "pages/wdrw/wdrw",
     "pages/wdsd/wdsd",
     "pages/wdxx/wdxx",
     "pages/wdfa/wdfa",
     "pages/wdsc/wdsc",
-   
-    
     "pages/tologin/tologin",
-    "pages/dkx/dkx",
     "pages/datashow/datashow",
     "pages/dkxx/dkxx",
     "pages/wdgz/wdgz",

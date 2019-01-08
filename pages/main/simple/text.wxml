@@ -4,7 +4,7 @@
       <text class='simple-text1'>{{ZBT}}</text>
       <text class='simple-text2'>{{FBT}}</text>
         <!-- <image class='item-gz' src='{{imagesrc}}'  catchtap='itemgz'></image> -->
-        <image class="item-gz " src="{{isClick?'https://aaa.viidrive.com/XCXWebPro/ysz.png/ysz.png':'https://aaa.viidrive.com/XCXWebPro/ysz.png/wsz.png'}}" bindtap="haveSave"></image>
+        <image class="item-gz " src="{{isClick?'https://aaa.viidrive.com/ysz.png':'https://aaa.viidrive.com/wsz.png'}}" bindtap="haveSave"></image>
    <!-- <text class="saveText">{{isClick?'已收藏':'收藏'}}</text> -->
              <!-- <text class='simple-text3'>苏好大好说的哈沙按时打算大所大</text> -->
         <text class='simple-text4'>{{SPZF}} </text>
@@ -14,6 +14,7 @@
         <image   class='simple-img' src='{{image3}}'></image>
       <button class='simple-btn-more'  catchtap='simplebtnmore'>查看更多相关视频</button>
       <button class='simple-btn-back'  catchtap='simplebtnback'>返回首页</button>
+      <view class='bt'></view>
       <!-- <view  class='Dline'></view> -->
     </view>
 </view>

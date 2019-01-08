@@ -248,4 +248,24 @@ Page({
 
 
   }
+  ,
+  yhj:function(){
+
+    wx.navigateTo({
+      url: '/pages/yhj/yhj',
+    })
+
+
+  }
+  ,
+  zhye:function(){
+
+      wx.showToast({
+        title: '暂时无法充值.',
+        icon:'none'
+      })
+
+
+
+  }
 })

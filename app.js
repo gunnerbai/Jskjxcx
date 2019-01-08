@@ -1,6 +1,11 @@
 //app.js
 let { WeToast } = require('./pages/main/src/wetoast.js') ;
 App({
+  globalData:{
+    
+      Server:"https://aaa.viidrive.com/",
+       NewJSServlet:"NewJSServlet"
+  },
   WeToast,
   onLaunch: function () {
     // 展示本地存储能力
@@ -49,11 +54,5 @@ App({
   AppData: {
     userInfo: null
   }
-  , globalData:{
-
-      userInfo:null,
-      
-      Server:"http://localhost:8080/XCXWebPro/",
-       NewJSServlet:"NewJSServlet"
-  }
+ 
 })

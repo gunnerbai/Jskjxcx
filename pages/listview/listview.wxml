@@ -10,20 +10,20 @@
     </view>
       <view class='center'>
         <view class='center-qt'>
-          <view class='center-text1'>
+          <view class='center-text1'  catchtap='zhye'>
               <text class='center-zb'>0</text>
               <text class='center-zw' >账户余额</text>
           
           </view>
            <!-- <view class='center-line'> </view> -->
-            <view class='center-text2'>
+            <view class='center-text2'  catchtap='zhye'>
             
              <text class='center-zb'>0</text>
               <text class='center-zw' >积分</text>
             
              </view>
              <!-- <view class='center-line'> </view> -->
-            <view class='center-text3'> 
+            <view class='center-text3'  catchtap='yhj'> 
                <text class='center-zb'>3</text>
               <text class='center-zw' >优惠券</text>
             </view>
